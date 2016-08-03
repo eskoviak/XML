@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<docRoot>
+    <someSingleTag>Single Tag Data</someSingleTag>
+    <tags>
+        <tag>
+            <moreTagData>me two!</moreTagData>
+        </tag>
+        <tag>
+            <moreTagData>me three!</moreTagData>
+        </tag>        
+    </tags>
+</docRoot>
