@@ -1,0 +1,218 @@
+<TXLife xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://ACORD.org/Standards/Life/2">
+    <UserAuthRequest>
+        <UserLoginName/>
+        <UserPswd/>
+    </UserAuthRequest>
+    <TXLifeResponse PrimaryObjectID="Holding_1">
+        <TransRefGUID>1243008660088</TransRefGUID>
+        <TransType tc="212">Values Inquiry Transaction</TransType>
+        <TransExeDate>2016-06-16</TransExeDate>
+        <TransExeTime>08:26:46</TransExeTime>
+        <TransMode tc="2">ORIGINAL</TransMode>
+        <TransResult>
+            <ResultCode tc="1">SUCCESS</ResultCode>
+            <ResultInfo>
+                <ResultInfoDesc>SUCCESS</ResultInfoDesc>
+            </ResultInfo>
+        </TransResult>
+        <OLifE>
+            <Holding id="Holding_1">
+                <Policy id="Policy_1">
+                    <CarrierAdminSystem>CYBERLIFE</CarrierAdminSystem>
+                    <PolNumber>09310746</PolNumber>
+                    <ProductType tc="6">INTEREST SENSITIVE LIFE</ProductType>
+                    <CarrierCode>00</CarrierCode>
+                    <PolicyStatus tc="1">ACTIVE</PolicyStatus>
+                    <BillNumber>40031430</BillNumber>
+                    <EffDate>1986-06-30</EffDate>
+                    <PaidToDate>2016-07-30</PaidToDate>
+                    <BilledToDate>2016-07-30</BilledToDate>
+                    <LastCOIAnnivDate>2016-06-16</LastCOIAnnivDate>
+                    <PaymentMode tc="4">MONTHLY</PaymentMode>
+                    <PaymentAmt>17.13</PaymentAmt>
+                    <PaymentMethod tc="7">EFT</PaymentMethod>
+                    <PaymentDraftDay>4</PaymentDraftDay>
+                    <Life>
+                        <NonFortProv tc="1">NO</NonFortProv>
+                        <TotCumPremAmt>6,182.37</TotCumPremAmt>
+                        <SuspenseAmt>0.00</SuspenseAmt>
+                        <AnnualPaymentAmt>17.13 X 12 = 205.56</AnnualPaymentAmt>
+                        <CurrLoanIntRate>5.25 %</CurrLoanIntRate>
+                        <RegularLoanBalance>.00</RegularLoanBalance>
+                        <MaxAvailableLoan>11,067.96</MaxAvailableLoan>
+                        <LoanPaymentAmt>.00</LoanPaymentAmt>
+                        <FaceAmt>50,000.00</FaceAmt>
+                        <NetSurrValueAmt>11,070.50</NetSurrValueAmt>
+                        <CashValueAmt>11,067.96</CashValueAmt>
+                        <SurrenderChargeAmt>2.54</SurrenderChargeAmt>
+                        <CurrIntRate>4.25 %</CurrIntRate>
+                        <DivOnDepositIntAmt>0.00</DivOnDepositIntAmt>
+                        <DivOnDepositIntRate>0.00 %</DivOnDepositIntRate>
+                        <DivOnDepositAmt>0.00</DivOnDepositAmt>
+                        <TotalPUA>0.00</TotalPUA>
+                        <OYTPurchaseAmt>0.00</OYTPurchaseAmt>
+                        <Coverage>
+                            <PlanName>UFBFS3 </PlanName>
+                            <ProductCode>ADVANCED</ProductCode>
+                            <ProductVersionCode>UFBFS3</ProductVersionCode>
+                            <CovNumber>1</CovNumber>
+                            <FormNo>119906</FormNo>
+                            <IndicatorCode tc="1">BASE</IndicatorCode>
+                            <DeathBenefitOptType>A</DeathBenefitOptType>
+                            <GuarIntRate>4.25 %</GuarIntRate>
+                            <CurrentAmt>50,000.00</CurrentAmt>
+                            <AnnualPremAmt>205.50</AnnualPremAmt>
+                            <TermDate>2077-06-30</TermDate>
+                            <GuidelineAnnPrem>230.00</GuidelineAnnPrem>
+                            <InterestEarnedATD>7,154.32</InterestEarnedATD>
+                            <LifeParticipant PartyID="Party_00" id="LifeParticipant_01">
+                                <LifeParticipantRoleCode tc="1">INSURED</LifeParticipantRoleCode>
+                                <IssueAge>9</IssueAge>
+                                <IssueGender tc="2">F</IssueGender>
+                            </LifeParticipant>
+                        </Coverage>
+                        <LifeUSA/>
+                        <OLifEExtension VendorCode="PolicyInfo">
+                            <TotSurrValueAmt>11,070.50</TotSurrValueAmt>
+                            <RPUQuote>49,587.00</RPUQuote>
+                            <ETIDate>2063-01-24</ETIDate>
+                            <ETIQuote>50,000.00</ETIQuote>
+                        </OLifEExtension>
+                    </Life>
+                </Policy>
+                <Attachment>
+                    <DateCreated>2011-02-28</DateCreated>
+                    <UserCode>L6406</UserCode>
+                    <Description>OWNERSHIP CHANGED TO JOHN T MCCREERY. ALSO ADDED JENNIFER R
+                        MCCREERY AS*CONTINGENT OWNER. SH 02/28/2011**</Description>
+                </Attachment>
+            </Holding>
+            <Party id="Party_00">
+                <PartyTypeCode tc="1">PERSON</PartyTypeCode>
+                <Person>
+                    <FirstName>JENNIFER</FirstName>
+                    <MiddleName>R</MiddleName>
+                    <LastName>MCCREERY</LastName>
+                    <Gender tc="2">F</Gender>
+                    <BirthDate>1977-10-22</BirthDate>
+                    <Citizenship tc="1">UNITED STATES OF AMERICA</Citizenship>
+                    <BirthCountry tc="0">UNKNOWN</BirthCountry>
+                </Person>
+                <Address>
+                    <Line1>3443 CRESCENT ST APT 4O</Line1>
+                    <City>ASTORIA</City>
+                    <AddressState>NY</AddressState>
+                    <Zip>11106-3954</Zip>
+                </Address>
+                <Client>
+                    <ClientKey/>
+                    <ClientSysKey>00000005182128J0025</ClientSysKey>
+                </Client>
+            </Party>
+            <Party id="Party_01">
+                <PartyTypeCode tc="1">PERSON</PartyTypeCode>
+                <GovtID>111111111</GovtID>
+                <GovtIDTC tc="1">SSN</GovtIDTC>
+                <Person>
+                    <FirstName>JOHN</FirstName>
+                    <MiddleName>T</MiddleName>
+                    <LastName>MCCREERY</LastName>
+                    <Gender tc="1">M</Gender>
+                    <Citizenship tc="1">UNITED STATES OF AMERICA</Citizenship>
+                    <BirthCountry tc="0">UNKNOWN</BirthCountry>
+                </Person>
+                <Address>
+                    <Line1>2476 GREEN ASH DR</Line1>
+                    <City>BEAVERCREEK</City>
+                    <AddressState>OH</AddressState>
+                    <Zip>45431</Zip>
+                </Address>
+                <Client>
+                    <ClientKey/>
+                    <ClientSysKey>00000005182128J0026</ClientSysKey>
+                </Client>
+            </Party>
+            <Party id="Party_02">
+                <PartyTypeCode tc="1">PERSON</PartyTypeCode>
+                <Person>
+                    <FirstName>JOHN</FirstName>
+                    <LastName>MCCREERY</LastName>
+                    <Citizenship tc="1">UNITED STATES OF AMERICA</Citizenship>
+                    <BirthCountry tc="0">UNKNOWN</BirthCountry>
+                </Person>
+                <Address>
+                    <Line1>9680 W STATE ROAD 55</Line1>
+                    <City>LUDLOW FALLS</City>
+                    <AddressState>OH</AddressState>
+                    <Zip>45339</Zip>
+                </Address>
+                <Client>
+                    <ClientKey/>
+                    <ClientSysKey>00000005182128J0026</ClientSysKey>
+                </Client>
+            </Party>
+            <Party id="Party_03">
+                <PartyTypeCode tc="1">PERSON</PartyTypeCode>
+                <Person>
+                    <FirstName>ZACHARIAH</FirstName>
+                    <MiddleName>Q</MiddleName>
+                    <LastName>FULLER-MCCREERY</LastName>
+                    <Citizenship tc="1">UNITED STATES OF AMERICA</Citizenship>
+                    <BirthCountry tc="0">UNKNOWN</BirthCountry>
+                </Person>
+                <Address/>
+                <Client>
+                    <ClientKey/>
+                    <ClientSysKey>00000013009102Z0001</ClientSysKey>
+                </Client>
+            </Party>
+            <Party id="Party_04">
+                <PartyTypeCode tc="1">PERSON</PartyTypeCode>
+                <Person>
+                    <FirstName>JOHN</FirstName>
+                    <MiddleName>T</MiddleName>
+                    <LastName>MCCREERY</LastName>
+                    <Citizenship tc="1">UNITED STATES OF AMERICA</Citizenship>
+                    <BirthCountry tc="0">UNKNOWN</BirthCountry>
+                </Person>
+                <Address/>
+                <Client>
+                    <ClientKey/>
+                    <ClientSysKey>00000005182128J0032</ClientSysKey>
+                </Client>
+            </Party>
+            <Party id="Party_05">
+                <PartyTypeCode tc="2">ORGANIZATION</PartyTypeCode>
+                <FullName/>
+                <Organization>
+                    <OrgForm tc="23">CORPORATIO</OrgForm>
+                </Organization>
+                <Address/>
+                <Producer id="Producer_1">
+                    <CarrierAppointment>
+                        <CompanyProducerID>1812</CompanyProducerID>
+                    </CarrierAppointment>
+                </Producer>
+            </Party>
+            <Relation OriginatingObjectID="Policy" RelatedObjectID="Party_00" id="Relation_00">
+                <RelationRoleCode tc="32">INSURED</RelationRoleCode>
+            </Relation>
+            <Relation OriginatingObjectID="Policy" RelatedObjectID="Party_01" id="Relation_01">
+                <RelationRoleCode tc="8">OWNER(01)</RelationRoleCode>
+            </Relation>
+            <Relation OriginatingObjectID="Policy" RelatedObjectID="Party_02" id="Relation_02">
+                <RelationRoleCode tc="31">PAYOR</RelationRoleCode>
+            </Relation>
+            <Relation OriginatingObjectID="Policy" RelatedObjectID="Party_03" id="Relation_03">
+                <RelationRoleCode tc="34">PRIMARY BENEFICIARY</RelationRoleCode>
+            </Relation>
+            <Relation OriginatingObjectID="Policy" RelatedObjectID="Party_04" id="Relation_04">
+                <RelationRoleCode tc="36">CONT BENEFICIARY</RelationRoleCode>
+            </Relation>
+            <Relation OriginatingObjectID="Policy" RelatedObjectID="Party_05" id="Relation_05">
+                <RelationRoleCode tc="38">SERVICING AGENT</RelationRoleCode>
+            </Relation>
+        </OLifE>
+    </TXLifeResponse>
+</TXLife>

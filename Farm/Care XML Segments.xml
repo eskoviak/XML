@@ -1,0 +1,2490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Policy>
+    <id>RG 1182514 30</id>																
+    <policyNumber>1182514</policyNumber>
+    <description>P &amp; S Farm LLC</description><!-- used insureds name -->
+    <lineOfBusiness>Farm</lineOfBusiness><!-- set with description for RG, CPP, WC -->                 
+    <issueAge></issueAge><!-- Life only -->									
+    <originalInceptionDate>02/24/1986</originalInceptionDate>
+    <termEffectiveDate>02/24/2016</termEffectiveDate>
+    <termExpirationDate>02/24/2017</termExpirationDate>
+    <cancelDate></cancelDate>
+    <maturityDate></maturityDate><!-- Life only -->
+    <policyTerm>12</policyTerm><!-- Returns 6 or 12 on Exceed.  What about short term? -->
+    <billingPlan></billingPlan><!-- come from Exceed Billing -->
+    <premium>13245.00</premium>
+    <billingDetails></billingDetails><!-- come from Exceed Billing -->
+<!-- Not correct formation -->	
+    <locations>
+        <location>
+            <id>21/11N/9E - 3611 N 8E HOME</id>															
+            <sequenceNumber>1</sequenceNumber>
+            <address>
+                <addressType></addressType>  
+                <street1>31/11N/9E -- 3611 N 8E HOME</street1><!-- required -->
+                <street2></street2>
+                <city>GREENSBURG</city><!-- required -->
+                <state>IN</state><!-- required -->
+                <countyCode></countyCode>
+                <county>DECATUR</county>
+                <townshipcode></townshipcode>
+                <township></township>
+                <postalCode>47240-9334</postalCode><!-- required -->
+                <country>USA</country><!-- required -->
+            </address>
+            <acres>22</acres>
+            <typeFarming></typeFarming><!-- used for Pollution only -->
+            <ownership></ownership><!-- used for Pollution only -->
+        </location>
+        <location>
+            <id>SEC 1/TWP 10N/RGE 8E</id>															
+            <sequenceNumber>2</sequenceNumber>
+            <address>
+                <addressType></addressType>  
+                <street1>SEC 1/TWP 10N/RGE 8E</street1><!-- required -->
+                <street2></street2>
+                <city>GREENSBURG</city><!-- required -->
+                <state>IN</state><!-- required -->
+                <countyCode></countyCode>
+                <county>DECATUR</county>
+                <townshipcode></townshipcode>
+                <township></township>
+                <postalCode>47240-9334</postalCode><!-- required -->
+                <country>USA</country><!-- required -->
+            </address>
+            <acres>27</acres>
+            <typeFarming></typeFarming><!-- used for Pollution only -->
+            <ownership></ownership><!-- used for Pollution only -->
+        </location>
+        <location>
+            <id>SEC 1/TWP 10N/RGE 8E</id>															
+            <sequenceNumber>3</sequenceNumber>
+            <address>
+                <addressType></addressType>  
+                <street1>SEC 1/TWP 10N/RGE 8E</street1><!-- required -->
+                <street2></street2>
+                <city>GREENSBURG</city><!-- required -->
+                <state>IN</state><!-- required -->
+                <countyCode></countyCode>
+                <county>DECATUR</county>
+                <townshipcode></townshipcode>
+                <township></township>
+                <postalCode>47240-9334</postalCode><!-- required -->
+                <country>USA</country><!-- required -->
+            </address>
+            <acres>1</acres>
+            <typeFarming></typeFarming><!-- used for Pollution only -->
+            <ownership></ownership><!-- used for Pollution only -->
+        </location>
+        <location>
+            <id>SEC 1/TWP 10N/RGE 8E</id>															
+            <sequenceNumber>4</sequenceNumber>
+            <address>
+                <addressType></addressType>  
+                <street1>SEC 36/TWP 12N/RGE 7E</street1><!-- required -->
+                <street2></street2>
+                <city>GREENSBURG</city><!-- required -->
+                <state>IN</state><!-- required -->
+                <countyCode></countyCode>
+                <county>DECATUR</county>
+                <townshipcode></townshipcode>
+                <township></township>
+                <postalCode>47240-9334</postalCode><!-- required -->
+                <country>USA</country><!-- required -->
+            </address>
+            <acres>137</acres>
+            <typeFarming></typeFarming><!-- used for Pollution only -->
+            <ownership></ownership><!-- used for Pollution only -->
+        </location>
+        <location>
+            <id>SEC 36/TWP 11N/RGE 8E</id>															
+            <sequenceNumber>5</sequenceNumber>
+            <address>
+                <addressType></addressType>  
+                <street1>SEC 36/TWP 11N/RGE 8E</street1><!-- required -->
+                <street2></street2>
+                <city>GREENSBURG</city><!-- required -->
+                <state>IN</state><!-- required -->
+                <countyCode></countyCode>
+                <county>DECATUR</county>
+                <townshipcode></townshipcode>
+                <township></township>
+                <postalCode>47240-9334</postalCode><!-- required -->
+                <country>USA</country><!-- required -->
+            </address>
+            <acres>162</acres>
+            <typeFarming></typeFarming><!-- used for Pollution only -->
+            <ownership></ownership><!-- used for Pollution only -->
+        </location>
+        <location>
+            <id>10/11N/8E/GERMANTOWN&amp;SETTLES</id>															
+            <sequenceNumber>6</sequenceNumber>
+            <address>
+                <addressType></addressType>  
+                <street1>10/11N/8E/GERMANTOWN&amp;SETTLES</street1><!-- required -->
+                <street2></street2>
+                <city>GREENSBURG</city><!-- required -->
+                <state>IN</state><!-- required -->
+                <countyCode></countyCode>
+                <county>DECATUR</county>
+                <townshipcode></townshipcode>
+                <township></township>
+                <postalCode>47240-9334</postalCode><!-- required -->
+                <country>USA</country><!-- required -->
+            </address>
+            <acres>97</acres>
+            <typeFarming></typeFarming><!-- used for Pollution only -->
+            <ownership></ownership><!-- used for Pollution only -->
+        </location>
+        <location>
+            <id>1416 W SPRINGFIELD ST</id>															
+            <sequenceNumber>7</sequenceNumber>
+            <address>
+                <addressType></addressType>  
+                <street1>1416 W SPRINGFIELD ST</street1><!-- required -->
+                <street2></street2>
+                <city>GREENSBURG</city><!-- required -->
+                <state>IN</state><!-- required -->
+                <countyCode></countyCode>
+                <county>DECATUR</county>
+                <townshipcode></townshipcode>
+                <township></township>
+                <postalCode>47240-9334</postalCode><!-- required -->
+                <country>USA</country><!-- required -->
+            </address>
+            <acres>2</acres>
+            <typeFarming></typeFarming><!-- used for Pollution only -->
+            <ownership></ownership><!-- used for Pollution only -->
+        </location>
+    </locations>
+<!-- should be PolicyDetail-Commericial -->
+	<policyDetail>                               
+        <id>RG 1182514 30</id>
+        <policyNumber>1182514</policyNumber>						
+        <description>P &amp; S Farm LLC</description>       <!-- Insureds Name????? -->
+        <appliesTo>Farm</appliesTo>							<!-- enum Farm, Commercial-->
+        <coverages>                                         <!-- Policy Level coverages -->
+            <coverage>
+               <deductibles>
+                   <name></name>
+                   <value></value>
+               </deductibles>
+               <description></description>
+               <coverageDetails></coverageDetails>	<!-- Life only -->
+               <limits>
+				   <limit>
+					   <name></name>
+					   <value></value>
+				   </limit>	
+				</limits>
+               <premium></premium>
+               <isEndorsement>false</isEndorsement>
+               <isExtended>false</isExtended>
+               <isExcluded>false</isExcluded>
+               <isWaived>false</isWaived>
+               <inclusions></inclusions>
+            </coverage>
+        </coverages>
+        <packageParts>										<!-- Insurance Lines  -->
+			<packagePart>
+				<name>Auto</name>
+				<coverages>
+					<coverage>
+						<description></description>
+						<coverageDetails></coverageDetails>	<!-- Life only -->
+						<deductibles>
+							<deductible>
+								<name></name>
+								<value></value>
+							</deductible>
+						</deductibles>
+					   <limits>
+						   <limit>
+							   <name></name>
+							   <value></value>
+						   </limit>	
+						</limits>				
+						<premium>0.00</premium>
+						<isEndorsement>false</isEndorsement>
+						<isExtended>false</isExtended>
+						<isExcluded>false</isExcluded>
+						<isWaived>false</isWaived>
+						<inclusions></inclusions>
+					</coverage>
+				</coverages>
+				<insuredItems>										
+					<insuredItem>
+						<id>CAP 8504723 00 in ENVC</id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Liability</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name>Liability Limit</name>
+										<value>1000000.00</value>
+									</limit>
+								</limits>
+								<premium>442.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>Medical Payment</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits>
+									<limit>
+										<name>Medical Pay Limit</name>
+										<value>5000.00</value>
+									</limit>
+								</limits>
+								<premium>49.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>Uninsured Motorists coverage</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits>
+									<limit>
+										<name>UM Limit</name>
+										<value>1000000.00</value>
+									</limit>	
+								</limits>									
+								<premium>16.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>UNDERINSURED MOTORISTS</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits>
+									<limit>
+										<name>UIM Limit</name>
+										<value>1000000.00</value>
+									</limit>
+								</limits>								
+								<premium>39.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>PROPERTY DAMAGE UM </description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<name>UM PD Deductible</name>
+									<value>Full</value>
+								</deductibles>
+								<limits>
+									<limit>
+										<name></name>
+										<value></value>
+									</limit>				
+								</limits>
+								<premium>0.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>Collision</description>                
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<name>Deductible</name>
+									<value>500.00</value>
+								</deductibles>
+								<limits></limits>				
+								<premium>0.00</premium>                                                        
+								<isEndorsement>true</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>Comprehensive</description>                
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<name>Deductible</name>
+									<value>250.00</value>
+								</deductibles>
+								<limits></limits>				
+								<premium>19.00</premium>                                                       
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>Towing</description>                
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits></limits>				
+								<premium>9.00</premium>                                                        
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>vehicle</itemType>
+						<itemDetails>
+							<vehicle>
+								<address></address>								<!-- does Point have a garaging address  -->
+								<description>SUPER DUTY CUBE VANS</description>  <!-- <description>2000 FORD ECONOLINE</description>  -->
+								<type></type>
+								<vin>1FDWE35L9YHA94548</vin>
+								<vehicleUse></vehicleUse>			<!-- radius?  -->
+								<valetLevel></valetLevel>
+								<valetLevelDateOrdered></valetLevelDateOrdered>
+								<classCode>23161</classCode>
+								<classCodeDescription>MED COMM LOC FARMERS INDIVIDUALLY OWNED</classCodeDescription>
+								<territory>Indianapolis</territory>
+								<ratingTier></ratingTier>
+								<unit>1</unit>
+								<costNew>52000.00</costNew>		<!-- also for stated amount  -->
+							</vehicle>
+						</itemDetails>						
+					</insuredItem>  
+				</insuredItems>
+				<fleetDrivers>
+					<clientId></clientID>   <!-- Point will not have a client id for a driver -->
+					<isRated>false<isRated>  <!-- no Point drivers will be rated  -->
+					<isExcluded>false<isExcluded>  <!-- how to exclude a driver in Point  -->
+					<relationshipToNamesInsured></relationshipToNamesInsured>  <!-- Point will not have relationship -->
+					<discounts></discounts>  <!-- Point will not have discounts -->
+					<penalties></pentalties> <!-- Nothing at this time -->
+				</fleetDrivers>
+			</packageParts>
+			<packagePart>
+				<name>Dwelling</name>
+				<coverages>
+					<coverage>
+						<description>EQUIPMENT BREAKDOWN</description>
+						<coverageDetails></coverageDetails>	<!-- Life only -->
+						<deductibles>
+							<deductible>
+								<name></name>
+								<value></value>
+							</deductible>
+						</deductibles>
+						<limits>
+							<limit>
+								<name></name>
+								<value></value>
+							</limit>	
+						</limits>
+						<premium>0.00</premium>
+						<isEndorsement>false</isEndorsement>
+						<isExtended>false</isExtended>
+						<isExcluded>false</isExcluded>
+						<isWaived>false</isWaived>
+						<inclusions></inclusions>
+					</coverage>
+				</coverages>
+				<insuredItems>										
+					<insuredItem>
+						<id>RG 1182514 30</id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>COVA - DWELLING</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name>Deductible</name>
+										<value>2500.00</value>
+									</deductible>
+									<deductible>
+										<name>Earthquake Deductible</name>
+										<value>NO COVERAGE</value>
+									</deductible>
+									<deductible>
+										<name>Wind/Hail Deductible</name>       <!-- HOW TO GET THIS UNDER THE DWELLING ENDORSEMENTS - NEW COVERAGE???? -->
+										<value>2500.00</value>                  <!-- is this 1% or max of 5,000 ???? -->
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name>Limit</name>
+										<value>536919.00</value>
+									</limit>
+								</limits>
+								<premium>1938.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>COVB - OTHER STRUCTURES</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits>
+									<limit>
+										<name>Limit</name>
+										<value>53692.00</value>
+									</limit>	
+								</limits>
+								<premium>0.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>COVC - CONTENTS</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits>
+									<limit>
+										<name>Limit</name>
+										<value>402689.00</value>
+									</limit>	
+								</limits>
+								<premium>0.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>COVD - LOSS OF INCOME</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits>
+									<limit>
+										<name>Limit</name>
+										<value>107384.00</value>
+									</limit>
+								</limits>								
+								<premium>0.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>REFRIGERATED PROPERTY</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits>
+									<limit>
+										<name>Limit</name>
+										<value>1000.00</value>
+									</limit>				
+								</limits>
+								<premium>10.00</premium>
+								<isEndorsement>true</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>PERSONAL PROPERTY REPLACEMENT COST</description>                <!-- create coverage for personal property replacement contents ???? -->
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits></limits>				
+								<premium>0.00</premium>                                                        <!-- ZERO OR SPACES????? -->
+								<isEndorsement>true</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>WIND/HAIL ACV</description>                <!-- create coverage for WIND/HAIL ACV ???? -->
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits></limits>				
+								<premium>173.00-</premium>                                                        <!-- ZERO OR SPACES????? -->
+								<isEndorsement>true</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts>
+							<Discount>
+								<name>MULTI-LINE DISCOUNT APPLIES</name>
+								<value>Y</value>
+								<appliedDate></appliedDate>
+							</Discount>
+							<Discount>
+								<name>PROTECTION SYSTEMS CREDIT</name>
+								<value>Fire/Smoke/Dead Bolts</value>
+								<appliedDate></appliedDate>
+							</Discount>
+						</discounts>
+						<lossHistory></lossHistory>
+						<itemType>dwelling</itemType>
+						<itemDetails>
+							<dwelling>
+								<locationId>21/11N/9E - 3611 N 8E HOME</locationId>									
+								<item>1</item>
+								<construction>SOLID BRICK/STONE</construction>
+								<dwellingType></dwellingType><!-- HOME, APARTMENT, CONDO - BASE THIS OFF THE FORM TYPE? -->
+								<fireProtection>PARTIALLY PROTECTED</fireProtection>
+								<formTypeDescription>HO-3 (PLATINUM)</formTypeDescription>
+								<foundation></foundation>
+								<generalCondition></generalCondition>
+								<numberOfFamilies>1 FAMILY DWELLING</numberOfFamilies>
+								<occurpancy>OWNER</occurpancy>
+								<roofType>Asphalt</roofType>
+								<roofAge>3</roofAge>
+								<residenceType></residenceType>
+								<replacementValue></replacementValue>               <!-- WHAT GOES IN HERE???? -->
+								<yearOfConstruction>1920</yearOfConstruction>
+							</dwelling>
+						</itemDetails>						<!-- object for vehicle, dwelling, Structure, other (Inland Marine, Liability) -->
+					</insuredItem>  
+					<insuredItem>
+						<id>RG 1182514 30</id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>COVA - DWELLING</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name>Deductible</name>
+										<value>2500.00</value>
+									</deductible>
+									<deductible>
+										<name>Earthquake Deductible</name>
+										<value>NO COVERAGE</value>
+									</deductible>
+									<deductible>
+										<name>Wind/Hail Deductible</name>       <!-- HOW TO GET THIS UNDER THE DWELLING ENDORSEMENTS - NEW COVERAGE???? -->
+										<value>2500.00</value>                  <!-- is this 1% or max of 5,000 ???? -->
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name>Limit</name>
+										<value>274121.00</value>
+									</limit>
+								</limits>
+								<premium>517.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>COVB - OTHER STRUCTURES</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits>
+									<limit>
+										<name>Limit</name>
+										<value>27412.00</value>
+									</limit>				
+								</limits>
+								<premium>0.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>COVC - CONTENTS</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits>
+									<limit>
+										<name>Limit</name>
+										<value>205591.00</value>
+									</limit>				
+								</limits>
+								<premium>0.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>COVD - LOSS OF INCOME</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits>
+									<limit>
+										<name>Limit</name>
+										<value>54824.00</value>
+									</limit>				
+								</limits>
+								<premium>0.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>REFRIGERATED PROPERTY</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits>
+									<limit>
+										<name>Limit</name>
+										<value>1000.00</value>
+									</limit>				
+								</limits>
+								<premium>10.00</premium>
+								<isEndorsement>true</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>PERSONAL PROPERTY REPLACEMENT COST</description>                <!-- create coverage for personal property replacement contents ???? -->
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits></limits>				
+								<premium>0.00</premium>                                                        <!-- ZERO OR SPACES????? -->
+								<isEndorsement>true</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>WIND/HAIL ACV</description>                <!-- create coverage for WIND/HAIL ACV ???? -->
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limits></limits>				
+								<premium>173.00-</premium>                                                        <!-- ZERO OR SPACES????? -->
+								<isEndorsement>true</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts>
+							<Discount>
+								<name>MULTI-LINE DISCOUNT APPLIES</name>
+								<value>Y</value>
+								<appliedDate></appliedDate>
+							</Discount>
+							<Discount>
+								<name>PROTECTION SYSTEMS CREDIT</name>
+								<value>Fire/Smoke/Dead Bolts</value>
+								<appliedDate></appliedDate>
+							</Discount>
+							<Discount>
+								<name>NEW HOME DISCOUNT</name>
+								<value>Y</value>
+								<appliedDate></appliedDate>
+							</Discount>
+						</discounts>
+						<lossHistory></lossHistory>
+						<itemType>dwelling</itemType>
+						<itemDetails>
+							<dwelling>
+								<locationId>1416 W SPRINGFIELD ST</locationId>									
+								<item>1</item>
+								<construction>BRICK VENEER</construction>
+								<dwellingType></dwellingType><!-- HOME, APARTMENT, CONDO - BASE THIS OFF THE FORM TYPE? -->
+								<fireProtection>FULLY PROTECTED</fireProtection>
+								<formTypeDescription>HO-3 (PLATINUM)</formTypeDescription>
+								<foundation></foundation>
+								<generalCondition></generalCondition>
+								<numberOfFamilies>1 FAMILY DWELLING</numberOfFamilies>
+								<occurpancy>OWNER</occurpancy>
+								<roofType>Asphalt</roofType>
+								<roofAge>1</roofAge>
+								<residenceType></residenceType>
+								<replacementValue></replacementValue>               <!-- WHAT GOES IN HERE???? -->
+								<yearOfConstruction>2015</yearOfConstruction>
+							</dwelling>
+						</itemDetails>						<!-- object for vehicle, dwelling, Structure, other (Inland Marine, Liability) -->
+					</insuredItem>  
+				<insuredItems>
+					<id>RG 1182514 30</id>
+					<description></description>
+					<coverages>
+						<coverage>
+							<description>COVA - DWELLING</description>
+							<coverageDetails></coverageDetails>	<!-- Life only -->
+							<deductibles>
+								<deductible>
+									<name>Deductible</name>
+									<value>2500.00</value>
+								</deductible>
+								<deductible>
+									<name>Earthquake Deductible</name>
+									<value>NO COVERAGE</value>
+								</deductible>
+								<deductible>
+									<name>Wind/Hail Deductible</name>       <!-- HOW TO GET THIS UNDER THE DWELLING ENDORSEMENTS - NEW COVERAGE???? -->
+									<value>2500.00</value>                  <!-- is this 1% or max of 5,000 ???? -->
+								</deductible>
+							</deductibles>
+							<limits>
+								<limit>
+									<name>Limit</name>
+									<value>274121.00</value>
+								</limit>				
+							</limits>
+							<premium>517.00</premium>
+							<isEndorsement>false</isEndorsement>
+							<isExtended>false</isExtended>
+							<isExcluded>false</isExcluded>
+							<isWaived>false</isWaived>
+							<inclusions></inclusions>
+						</coverage>
+						<coverage>
+							<description>COVB - OTHER STRUCTURES</description>
+							<coverageDetails></coverageDetails>	<!-- Life only -->
+							<deductibles></deductibles>
+							<limits>
+								<limit>
+									<name>Limit</name>
+									<value>27412.00</value>
+								</limit>				
+							<limits>
+							<premium>0.00</premium>
+							<isEndorsement>false</isEndorsement>
+							<isExtended>false</isExtended>
+							<isExcluded>false</isExcluded>
+							<isWaived>false</isWaived>
+							<inclusions></inclusions>
+						</coverage>
+						<coverage>
+							<description>COVC - CONTENTS</description>
+							<coverageDetails></coverageDetails>	<!-- Life only -->
+							<deductibles></deductibles>
+							<limits>
+								<limit>
+									<name>Limit</name>
+									<value>205591.00</value>
+								</limit>				
+							</limits>
+							<premium>0.00</premium>
+							<isEndorsement>false</isEndorsement>
+							<isExtended>false</isExtended>
+							<isExcluded>false</isExcluded>
+							<isWaived>false</isWaived>
+							<inclusions></inclusions>
+						</coverage>
+						<coverage>
+							<description>COVD - LOSS OF INCOME</description>
+							<coverageDetails></coverageDetails>	<!-- Life only -->
+							<deductibles></deductibles>
+							<limits>
+								<limit>
+									<name>Limit</name>
+									<value>54824.00</value>
+								</limit>				
+							</limits>
+							<premium>0.00</premium>
+							<isEndorsement>false</isEndorsement>
+							<isExtended>false</isExtended>
+							<isExcluded>false</isExcluded>
+							<isWaived>false</isWaived>
+							<inclusions></inclusions>
+						</coverage>
+						<coverage>
+							<description>REFRIGERATED PROPERTY</description>
+							<coverageDetails></coverageDetails>	<!-- Life only -->
+							<deductibles></deductibles>
+							<limits>
+								<limit>
+									<name>Limit</name>
+									<value>1000.00</value>
+								</limit>
+							</limits>							
+							<premium>10.00</premium>
+							<isEndorsement>true</isEndorsement>
+							<isExtended>false</isExtended>
+							<isExcluded>false</isExcluded>
+							<isWaived>false</isWaived>
+							<inclusions></inclusions>
+						</coverage>
+						<coverage>
+							<description>PERSONAL PROPERTY REPLACEMENT COST</description>                <!-- create coverage for personal property replacement contents ???? -->
+							<coverageDetails></coverageDetails>	<!-- Life only -->
+							<deductibles></deductibles>
+							<limits></limits>				
+							<premium>0.00</premium>                                                        <!-- ZERO OR SPACES????? -->
+							<isEndorsement>true</isEndorsement>
+							<isExtended>false</isExtended>
+							<isExcluded>false</isExcluded>
+							<isWaived>false</isWaived>
+							<inclusions></inclusions>
+						</coverage>
+						<coverage>
+							<description>EQUIPMENT BREAKDOWN</description>                <!-- create coverage for for equipemnt breakdown so it can be excluded???? -->
+							<coverageDetails></coverageDetails>	<!-- Life only -->
+							<deductibles></deductibles>
+							<limits></limits>				
+							<premium>0.00</premium>                                                        <!-- ZERO OR SPACES????? -->
+							<isEndorsement>false</isEndorsement>
+							<isExtended>false</isExtended>
+							<isExcluded>false</isExcluded>
+							<isWaived>false</isWaived>
+							<inclusions></inclusions>
+						</coverage>
+						<coverage>
+							<description>WIND/HAIL ACV</description>                <!-- create coverage for WIND/HAIL ACV ???? -->
+							<coverageDetails></coverageDetails>	<!-- Life only -->
+							<deductibles></deductibles>
+							<limits></limits>				
+							<premium>173.00-</premium>                                                        
+							<isEndorsement>true</isEndorsement>
+							<isExtended>false</isExtended>
+							<isExcluded>false</isExcluded>
+							<isWaived>false</isWaived>
+							<inclusions></inclusions>
+						</coverage>
+						<coverage>
+							<description>SPECIFIED ADDITIONAL AMOUNT OF INSURANCE COVERAGE A</description>                <!-- create coverage for THIS ???? -->
+							<coverageDetails></coverageDetails>	<!-- Life only -->
+							<deductibles></deductibles>
+							<limits></limits>				
+							<premium>0.00</premium>                                                        <!-- ZERO OR SPACES????? -->
+							<isEndorsement>true</isEndorsement>
+							<isExtended>false</isExtended>
+							<isExcluded>false</isExcluded>
+							<isWaived>false</isWaived>
+							<inclusions></inclusions>
+						</coverage>
+					</coverages>
+					<discounts>
+						<Discount>
+							<name>MULTI-LINE DISCOUNT APPLIES</name>
+							<value>Y</value>
+							<appliedDate></appliedDate>
+						</Discount>
+						<Discount>
+							<name>PROTECTION SYSTEMS CREDIT</name>
+							<value>Fire/Smoke/Dead Bolts</value>
+							<appliedDate></appliedDate>
+						</Discount>
+						<Discount>
+							<name>New Home Discount Applies</name>
+							<value>Y</value>
+							<appliedDate></appliedDate>
+						</Discount>
+					</discounts>
+					<lossHistory></lossHistory>
+					<itemType>dwelling</itemType>
+					<itemDetails>
+						<dwelling>
+							<locationId>1416 W SPRINGFIELD ST</locationId>									
+							<item>1</item>
+							<construction>BRICK VENEER</construction>
+							<dwellingType></dwellingType><!-- HOME, APARTMENT, CONDO - BASE THIS OFF THE FORM TYPE? needed for Point? -->
+							<fireProtection>FULLY PROTECTED</fireProtection>
+							<formTypeDescription>HO-3 (PLATINUM)</formTypeDescription>
+							<foundation></foundation>
+							<generalCondition></generalCondition>
+							<numberOfFamilies>1 FAMILY DWELLING</numberOfFamilies>
+							<occurpancy>OWNER</occurpancy>
+							<roofType>Asphalt</roofType>
+							<roofAge>1</roofAge>
+							<residenceType></residenceType>
+							<replacementValue></replacementValue>           <!-- WHAT GOES IN HERE???? -->
+							<yearOfConstruction>2015</yearOfConstruction>
+						</dwelling>
+					</itemDetails>						
+				</insuredItem>  
+			</packagePart>
+			<packagePart>
+				<name>Structure</name>
+				<coverages>
+					<coverage>
+						<description>OUTDOOR ANTENNA</description>
+						<coverageDetails></coverageDetails>	<!-- Life only -->
+						<deductibles>
+							<deductible>
+								<name></name>
+								<value></value>
+							</deductible>
+						</deductibles>
+						<limit>
+							<name>Amount of Insurance</name>
+							<value>1000.00</value>
+						</limit>				
+						<premium>0.00</premium>
+						<isEndorsement>false</isEndorsement>
+						<isExtended>false</isExtended>
+						<isExcluded>false</isExcluded>
+						<isWaived>false</isWaived>
+						<inclusions></inclusions>
+					</coverage>
+					<coverage>
+						<description>FIRE DEPARTMENT SERVICE CHARGE</description>
+						<coverageDetails></coverageDetails>	<!-- Life only -->
+						<deductibles>
+							<deductible>
+								<name></name>
+								<value></value>
+							</deductible>
+						</deductibles>
+						<limit>
+							<name></name>
+							<value></value>
+						</limit>				
+						<premium>0.00</premium>
+						<isEndorsement>false</isEndorsement>
+						<isExtended>false</isExtended>
+						<isExcluded>false</isExcluded>
+						<isWaived>false</isWaived>
+						<inclusions></inclusions>
+					</coverage>
+					<coverage>
+						<description>Equipment Breakdown coverages</description>
+						<coverageDetails></coverageDetails>	<!-- Life only -->
+						<deductibles>
+							<deductible>
+								<name></name>
+								<value></value>
+							</deductible>
+						</deductibles>
+						<limit>
+							<name></name>
+							<value></value>
+						</limit>				
+						<premium>0.00</premium>
+						<isEndorsement>false</isEndorsement>
+						<isExtended>false</isExtended>
+						<isExcluded>false</isExcluded>
+						<isWaived>false</isWaived>
+						<inclusions></inclusions>
+					</coverage>
+					<coverage>
+						<description>PRIVATE POWER &amp; LIGHT POLES</description>
+						<coverageDetails></coverageDetails>	<!-- Life only -->
+						<deductibles>
+							<deductible>
+								<name></name>
+								<value></value>
+							</deductible>
+						</deductibles>
+						<limit>
+							<name>Amount of Insurance</name>
+							<value>1000.00</value>
+						</limit>				
+						<premium>0.00</premium>
+						<isEndorsement>false</isEndorsement>
+						<isExtended>false</isExtended>
+						<isExcluded>false</isExcluded>
+						<isWaived>false</isWaived>
+						<inclusions></inclusions>
+					</coverage>
+				</coverages>
+				<insuredItems>
+					<insuredItem>
+						<id>RG 1182514 30</id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>BUILDING</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name>Deductible</name>
+										<value>2500.00</value>
+									</deductible>
+									<deductible>
+										<name>Earthquake Deductible</name>
+										<value>NO COVERAGE</value>					<!-- if no coverage then do not fill in  a deductible -->
+									</deductible>
+								</deductibles>
+								<limit>
+									<name>Amount of Insurance</name>
+									<value>2000.00</value>
+								</limit>				
+								<premium>9.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>FARM STRUCTURE BROAD PERIL</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limit>
+									<name>Limit</name>
+									<value>2000.00</value>
+								</limit>				
+								<premium>0.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>structure</itemType>
+						<itemDetails>
+							<structure>
+								<locationId>31/11N/9E -- 3611 N 8E HOME</locationId>
+								<item>2</item>																			
+								<description>WET HOLD TANK #1 2000BU</description>
+								<isBroadPeril>true</isBroadPeril>   <!-- if EXPPER coverage is on unit -->
+								<isVacant>false</isVacant>
+							</structure>
+						</itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id>RG 1182514 30</id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>BUILDING</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name>Deductible</name>
+										<value>2500.00</value>
+									</deductible>
+									<deductible>
+										<name>Earthquake Deductible</name>
+										<value>NO COVERAGE</value>
+									</deductible>
+								</deductibles>
+								<limit>
+									<name>Amount of Insurance</name>
+									<value>4000.00</value>
+								</limit>				
+								<premium>18.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+							<coverage>
+								<description>FARM STRUCTURE BROAD PERIL</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles></deductibles>
+								<limit>
+									<name>Limit</name>
+									<value>2000.00</value>
+								</limit>				
+								<premium>0.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>structure</itemType>
+						<itemDetails>
+							<structure>
+								<locationId>31/11N/9E -- 3611 N 8E HOME</locationId>
+								<item>3</item>																			
+								<description>WET HOLD TANK #2 4000BU</description>
+								<isBroadPeril>true</isBroadPeril>   <!-- if EXPPER coverage is on unit keep the flag or the coverage?  -->
+								<isVacant>false</isVacant>
+							</structure>
+						</itemDetails>						
+					</insuredItem>
+				</insuredItems>
+			</packagePart>	
+			<packagePart>
+				<name>Property</name>
+				<coverages>
+					<coverage>
+						<description></description>
+						<coverageDetails></coverageDetails>	<!-- Life only -->
+						<deductibles>
+							<deductible>
+								<name></name>
+								<value></value>
+							</deductible>
+						</deductibles>
+						<limits>
+							<limit>
+								<name></name>
+								<value></value>
+							</limit>	
+						</limits>			
+						<premium></premium>
+						<isEndorsement>false</isEndorsement>
+						<isExtended>false</isExtended>
+						<isExcluded>false</isExcluded>
+						<isWaived>false</isWaived>
+						<inclusions></inclusions>
+					</coverage>
+				</coverages>
+				<insuredItems>
+					<insuredItem>
+						<id>RG 1182514 30</id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>FARM PROPERTY CARGO</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name>Blanket Amount</name>
+										<value>559425.00</value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name></name>
+										<value></value>
+									</limit>	
+								</limits>				
+								<premium>19.00</premium>
+								<isEndorsement>true</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						</itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id>RG 1182514 30</id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Farm Property Broad Peril</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name></name>
+										<value></value>
+									</limit>	
+								</limits>				
+								<premium>11.00</premium>
+								<isEndorsement>true</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						</itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id>RG 1182514 30</id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Farm Machinery</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name></name>
+										<value></value>
+									</limit>	
+								</limits>				
+								<premium>225.00</premium>
+								<isEndorsement>true</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						</itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id>RG 1182514 30</id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Equipment Breakdown Coverage</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name></name>
+										<value></value>
+									</limit>	
+								</limits>			
+								<premium>0.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						</itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id>RG 1182514 30</id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Personal Farm Records</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name>Amount of Insurance</name>
+										<value>1000.00</value>
+									</limit>				
+								</limits>
+								<premium>0.00</premium>
+								<isEndorsement>true</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						</itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id>RG 1182514 30</id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>PEAK SEASON</description>				<!-- include dates in the description?  -->
+								<coverageDetails>GRAIN IN STORAGE</coverageDetails>	<!-- Life only???? -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name>Peak Additional Limit</name>
+										<value>65000.00</value>
+									</limit>				
+								</limits>
+								<premium>9.00</premium>
+								<isEndorsement>true</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						</itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id>RG 1182514 30</id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Refrigerated Products</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name>Amount of Insurance</name>
+										<value>1000.00</value>
+									</limit>
+								</limits>
+								<premium>0.00</premium>
+								<isEndorsement>true</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						</itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id>RG 1182514 30</id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Scheduled Farm Machinery</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name></name>
+										<value></value>
+									</limit>	
+								</limits>								<premium>15.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description>SHOW SADDLE & BRIDLE</description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits>
+									<limit>
+										<name>Amount of Insurance</name>
+										<value>3100.00</value>
+									</limit>	
+								</limits>
+								<premium>0.00</premium>
+							</other>
+						</itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id>RG 1182514 30</id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>BLANKET FARM PERSONAL PROPERTY</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name>Amount of Insurance</name>
+										<value>559425.00</value>
+									</limit>	
+								</limits>
+								<premium>1378.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description>OTHER - MISC &amp; TOOLS</description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits>
+									<limit>
+										<name>Amount of Insurance</name>
+										<value>35225.00</value>
+									</limit>	
+								</limits>
+								<premium>0.00</premium>
+							</other>
+						</itemDetails>						
+					</insuredItem>
+				</insuredItems>
+			</packagePart>	
+			<packagePart>
+				<name>Equine</name>
+				<coverages>
+					<coverage>
+						<description></description>
+						<coverageDetails></coverageDetails>	<!-- Life only -->
+						<deductibles>
+							<deductible>
+								<name></name>
+								<value></value>
+							</deductible>
+						</deductibles>
+						<limit>
+							<name></name>
+							<value></value>
+						</limit>				
+						<premium></premium>
+						<isEndorsement>false</isEndorsement>
+						<isExtended>false</isExtended>
+						<isExcluded>false</isExcluded>
+						<isWaived>false</isWaived>
+						<inclusions></inclusions>
+					</coverage>
+				</coverages>
+				<insuredItems>
+					<insuredItem>
+						<id></id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Equine</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limit>
+									<name>Exposure</name>
+									<value>3.00</value>
+								</limit>				
+								<premium>0.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						 </coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						 </itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id></id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Products</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limit>
+									<name>Exposure</name>
+									<value>50000.00</value>
+								</limit>				
+								<premium>0.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						 </coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						 </itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id></id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Miscellaneous coverage</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limit>
+									<name></name>
+									<value></value>
+								</limit>				
+								<premium>75.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						 </coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						 </itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id></id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Care, Custody and Control</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limit>
+									<name>Per Horse/Aggregate Limit</name>
+									<value>5000/50000</value>
+								</limit>				
+								<premium>247.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						 </coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						 </itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id></id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Club Members</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limit>
+									<name></name>
+									<value></value>
+								</limit>				
+								<premium>0.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						 </coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description>NAME1 NAME2</description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium>0.00</premium>
+							</other>
+							<other>
+								<description>NAME3 NAME4</description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium>0.00</premium>
+							</other>
+						 </itemDetails>						
+					</insuredItem>
+				</insuredItems>
+			</packagePart>
+			<packagePart>
+				<name>Liability</name>
+				<coverages>
+					<coverage>
+						<description></description>
+						<coverageDetails></coverageDetails>	<!-- Life only -->
+						<deductibles>
+							<deductible>
+								<name></name>
+								<value></value>
+							</deductible>
+						</deductibles>
+						<limits>
+							<limit>
+								<name></name>
+								<value></value>
+							</limit>	
+						</limits>							
+						<premium></premium>
+						<isEndorsement>false</isEndorsement>
+						<isExtended>false</isExtended>
+						<isExcluded>false</isExcluded>
+						<isWaived>false</isWaived>
+						<inclusions></inclusions>
+					</coverage>
+				</coverages>
+				<insuredItems>
+					<insuredItem>
+						<id></id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Additional dwellings</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name></name>
+										<value></value>
+									</limit>	
+								</limits>							
+								<premium>17.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						 </itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id></id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Additional Insureds</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name>Number of Additional Insureds</name>
+										<value>4</value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name></name>
+										<value></value>
+									</limit>	
+								</limits>					
+								<premium>148.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						 </itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id></id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Cov F - Liability</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name>Liability Limit</name>
+										<value>1000000.00</value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name></name>
+										<value></value>
+									</limit>	
+								</limits>						
+								<premium>115.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						 </itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id></id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Cov G - Medical Payments</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name>Medical Limit</name>
+										<value>25000.00</value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name></name>
+										<value></value>
+									</limit>	
+								</limits>							
+								<premium>46.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						 </itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id></id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Employers Liability</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name></name>
+										<value></value>
+									</limit>	
+								</limits>					
+								<premium>127.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						 </itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id></id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Limited Pollution coverage</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name></name>
+										<value></value>
+									</limit>	
+								</limits>							
+								<premium>63.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						 </itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id></id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>No Daycare coverage</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name></name>
+										<value></value>
+									</limit>	
+								</limits>							
+								<premium>0.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						 </itemDetails>						
+					</insuredItem>
+					<insuredItem>
+						<id></id>
+						<description></description>
+						<coverages>
+							<coverage>
+								<description>Personal Injury</description>
+								<coverageDetails></coverageDetails>	<!-- Life only -->
+								<deductibles>
+									<deductible>
+										<name></name>
+										<value></value>
+									</deductible>
+								</deductibles>
+								<limits>
+									<limit>
+										<name></name>
+										<value></value>
+									</limit>	
+								</limits>							
+								<premium>67.00</premium>
+								<isEndorsement>false</isEndorsement>
+								<isExtended>false</isExtended>
+								<isExcluded>false</isExcluded>
+								<isWaived>false</isWaived>
+								<inclusions></inclusions>
+							</coverage>
+						</coverages>
+						<discounts></discounts>
+						<lossHistory></lossHistory>
+						<itemType>other</itemType>
+						<itemDetails>
+							<other>
+								<description></description>
+								<classification></classification>
+								<detail></detail>
+								<deductibles></deductibles>
+								<limits></limits>
+								<premium></premium>
+							</other>
+						 </itemDetails>						
+					</insuredItem>
+				</insuredItems>
+			</packagePart>
+			<packagePart>
+				<name>Inland Marine</name>
+				<coverages>
+					<coverage>
+						<description></description>
+						<coverageDetails></coverageDetails>	<!-- Life only -->
+						<deductibles>
+							<deductible>
+								<name></name>
+								<value></value>
+							</deductible>
+						</deductibles>
+						<limits>
+							<limit>
+								<name></name>
+								<value></value>
+							</limit>	
+						</limits>						<premium></premium>
+						<isEndorsement>false</isEndorsement>
+						<isExtended>false</isExtended>
+						<isExcluded>false</isExcluded>
+						<isWaived>false</isWaived>
+						<inclusions></inclusions>
+					</coverage>
+				</coverages>
+				<insuredItem>
+					<id>RG 1182514 30</id>
+					<description></description>
+					<coverages>
+						<coverage>
+							<description>CCC-Feedlots</description>
+							<coverageDetails></coverageDetails>	<!-- Life only -->
+							<deductibles>
+								<deductible>
+									<name>Deductible</name>
+									<value>10000.00</value>
+								</deductible>
+							</deductibles>
+							<limits>
+								<limit>
+									<name>Total coverage Amount</name>
+									<value>541161.00</value>
+								</limit>	
+							</limits>								
+							<premium>1564.00</premium>
+							<isEndorsement>false</isEndorsement>
+							<isExtended>false</isExtended>
+							<isExcluded>false</isExcluded>
+							<isWaived>false</isWaived>
+							<inclusions></inclusions>
+						</coverage>
+					 </coverages>
+					<discounts></discounts>
+					<lossHistory></lossHistory>
+					<itemType>other</itemType>
+					<itemDetails>
+						<other>
+							<description></description>
+							<classification></classification>
+							<detail></detail>
+							<deductibles></deductibles>
+							<limits></limits>
+							<premium></premium>
+						</other>
+					 </itemDetails>						
+				</insuredItem>
+				<insuredItem>
+					<id>RG 1182514 30</id>
+					<description></description>
+					<coverages>
+						<coverage>
+							<description>JEWELRY</description>
+							<coverageDetails></coverageDetails>	<!-- Life only -->
+							<deductibles>
+								<deductible>
+									<name></name>
+									<value></value>
+								</deductible>
+							</deductibles>
+							<limits>
+								<limit>
+									<name></name>
+									<value></value>
+								</limit>	
+							</limits>				
+							<premium>323.00</premium>
+							<isEndorsement>false</isEndorsement>
+							<isExtended>false</isExtended>
+							<isExcluded>false</isExcluded>
+							<isWaived>false</isWaived>
+							<inclusions></inclusions>
+						</coverage>
+					 </coverages>
+					<discounts></discounts>
+					<lossHistory></lossHistory>
+					<itemType>other</itemType>
+					<itemDetails>
+						<other>
+							<description>LDS 14K YELLOW 6 PRONG SOLITAIRE RG W/105CT</description>
+							<classification></classification>
+							<detail></detail>
+							<deductibles>Full coverage</deductibles>
+							<limits>
+								<limit>
+									<name>Amount of Insurance</name>
+									<value>9550.00</value>
+								</limit>
+							</limits>
+							<premium>86.00</premium>
+						</other>
+						<other>
+							<description>LDS 14K WHITE HORSESHOE RG W/11 SINGLE CUT DIA EQUAL TO 1/2CT</description>
+							<classification></classification>
+							<detail></detail>
+							<deductibles>Full coverage</deductibles>
+							<limits>
+								<limit>
+									<name>Amount of Insurance</name>
+									<value>500.00</value>
+								</limit>
+							</limits>
+							<premium>5.00</premium>
+						</other>
+						<other>
+							<description>GENT 3 DIA 10K YELLOW RG W/CENTER 40 PTS & 2 OTHER IS 1/3 CT EA</description>
+							<classification></classification>
+							<detail></detail>
+							<deductibles>Full coverage</deductibles>
+							<limits>
+								<limit>
+									<name>Amount of Insurance</name>
+									<value>2700.00</value>
+								</limit>
+							</limits>
+							<premium>24.00</premium>
+						</other>
+						<other>
+							<description>LADIES 14K YG SOLITAIRE DIA RING .50CT</description>
+							<classification></classification>
+							<detail></detail>
+							<deductibles>Full coverage</deductibles>
+							<limits>
+								<limit>
+									<name>Amount of Insurance</name>
+									<value>2400.00</value>
+								</limit>
+							</limits>
+							<premium>22.00</premium>
+						</other>
+						<other>
+							<description>LADIES 18K YG DIA NECKLACE WGT 1.05CT</description>
+							<classification></classification>
+							<detail></detail>
+							<deductibles>Full coverage</deductibles>
+							<limits>
+								<limit>
+									<name>Amount of Insurance</name>
+									<value>1800.00</value>
+								</limit>
+							</limits>
+							<premium>16.00</premium>
+						</other>
+						<other>
+							<description>LADIES 14K YG ANNIVERSARY RING WGT 1 CARAT</description>
+							<classification></classification>
+							<detail></detail>
+							<deductibles>Full coverage</deductibles>
+							<limits>
+								<limit>
+									<name>Amount of Insurance</name>
+									<value>1050.00</value>
+								</limit>
+							</limits>
+							<premium>9.00</premium>
+						</other>
+						<other>
+							<description>18K YG EMERALD & DIAMOND RING</description>
+							<classification></classification>
+							<detail></detail>
+							<deductibles>Full coverage</deductibles>
+							<limits>
+								<limit>
+									<name>Amount of Insurance</name>
+									<value>6973.00</value>
+								</limit>
+							</limits>
+							<premium>63.00</premium>
+						</other>
+						<other>
+							<description>14K YG DIAMOND WEDDING BAND</description>
+							<classification></classification>
+							<detail></detail>
+							<deductibles>Full coverage</deductibles>
+							<limits>
+								<limit>
+									<name>Amount of Insurance</name>
+									<value>925.00</value>
+								</limit>
+							</limits>
+							<premium>8.00</premium>
+						</other>
+						<other>
+							<description>TOWLE STERLING FLATWARE KING RICHARD PATTERN 10-4 PIECE SETTINGS</description>
+							<classification></classification>
+							<detail></detail>
+							<deductibles>Full coverage</deductibles>
+							<limits>
+								<limit>
+									<name>Amount of Insurance</name>
+									<value>9350.00</value>
+								</limit>
+							</limits>
+							<premium>84.00</premium>
+						</other>
+						<other>
+							<description>2 BABY FORKS AT $95EA</description>
+							<classification></classification>
+							<detail></detail>
+							<deductibles>Full coverage</deductibles>
+							<limits>
+								<limit>
+									<name>Amount of Insurance</name>
+									<value>190.00</value>
+								</limit>
+							</limits>
+							<premium>2.00</premium>
+						</other>
+						<other>
+							<description>2 BABY SPOONS $95EA</description>
+							<classification></classification>
+							<detail></detail>
+							<deductibles>Full coverage</deductibles>
+							<limits>
+								<limit>
+									<name>Amount of Insurance</name>
+									<value>190.00</value>
+								</limit>
+							</limits>
+							<premium>2.00</premium>
+						</other>
+						<other>
+							<description>2 INFANT FEEDING SPOONS AT $110EA</description>
+							<classification></classification>
+							<detail></detail>
+							<deductibles>Full coverage</deductibles>
+							<limits>
+								<limit>
+									<name>Amount of Insurance</name>
+									<value>220.00</value>
+								</limit>
+							</limits>
+							<premium>2.00</premium>
+						</other>
+					 </itemDetails>						
+				</insuredItem>
+				<insuredItem>
+					<id>RG 1182514 30</id>
+					<description></description>
+					<coverages>
+						<coverage>
+							<description>Farm Electronic Equipment</description>
+							<coverageDetails></coverageDetails>	<!-- Life only -->
+							<deductibles>
+								<deductible>
+									<name></name>
+									<value></value>
+								</deductible>
+							</deductibles>
+							<limits>
+								<limit>
+									<name></name>
+									<value></value>
+								</limit>	
+							</limits>
+							<premium>46.00</premium>
+							<isEndorsement>false</isEndorsement>
+							<isExtended>false</isExtended>
+							<isExcluded>false</isExcluded>
+							<isWaived>false</isWaived>
+							<inclusions></inclusions>
+						</coverage>
+					 </coverages>
+					<discounts></discounts>
+					<lossHistory></lossHistory>
+					<itemType>other</itemType>
+					<itemDetails>
+						<other>
+							<description>COMPUTERS, FAX MACHINE & PHONES</description>
+							<classification></classification>
+							<detail></detail>
+							<deductibles>500.00</deductibles>
+							<limits>
+								<limit>
+									<name>Amount of Insurance</name>
+									<value>6500.00</value>
+								</limit>
+							</limits>
+							<premium>46.00</premium>
+						</other>
+					 </itemDetails>						
+				</insuredItem>
+			</insuredItems>
+		</packageParts>
+    </PolicyDetail>
+    <policyAssociations>
+		<policyAssociation>
+			<name>Fifth Third Bank</name>    <!-- 2 Names fields go here ??? 2 30 charactoer fields -->
+			<address>
+					<addressType></addressType>  
+					<street1>123 Michigan Road</street1><!-- required -->
+					<street2></street2>
+					<city>Oklahoma City</city><!-- required -->
+					<state>OK</state><!-- required -->
+					<countyCode></countyCode>
+					<county></county>
+					<townshipcode></townshipcode>
+					<township></township>
+					<postalCode>42569</postalCode><!-- required -->
+					<country>USA</country><!-- required -->
+			</address>
+			<associationType>Mortgagee</assocationType>
+			<associationSubtype></associationSubtype>
+			<appliesTo></appliesTo>  				<!-- do we need applies to field ??????? -->
+		<policyAssociation>
+		<policyAssociation>							
+			<name>VECTREN ENERGY DELIVER OF IND VECTREN UTILITIES HOLDING GRP</name>    <!-- 2 NAMES go here -->
+			<address>
+					<addressType></addressType>  
+					<street1>1239 RELIABLE PARKWAY</street1><!-- required -->
+					<street2></street2>
+					<city>CHICAGO</city><!-- required -->
+					<state>IL</state><!-- required -->
+					<countyCode></countyCode>
+					<county></county>
+					<townshipcode></townshipcode>
+					<township></township>
+					<postalCode>60686-0012</postalCode><!-- required -->
+					<country>USA</country><!-- required -->
+			</address>
+			<associationType>CLAIM PAYEE</assocationType>
+			<associationSubtype></associationSubtype>
+			<appliesTo></appliesTo>  				
+		<policyAssociation>
+		<policyAssociation>							
+			<name>FIRST FARMERS BANK &amp; TRUST</name>    
+			<address>
+					<addressType></addressType>  
+					<street1>PO BOX 690</street1><!-- required -->
+					<street2></street2>
+					<city>CONVERSE</city><!-- required -->
+					<state>IN</state><!-- required -->
+					<countyCode></countyCode>
+					<county></county>
+					<townshipcode></townshipcode>
+					<township></township>
+					<postalCode>60686-0012</postalCode><!-- required -->
+					<country>USA</country><!-- required -->
+			</address>
+			<associationType>LESSOR - LEASED VEHICLE</assocationType>
+			<associationSubtype></associationSubtype>
+			<appliesTo>1994 WILSON HOPPER TRAILER</appliesTo>  				
+		<policyAssociation>
+	</policyAssociations>				
+</Policy>
