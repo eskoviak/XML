@@ -1,0 +1,396 @@
+<IfbiEsbRequest>
+    <ClientName>GuidoTest</ClientName>
+    <ClientVersion>1.0</ClientVersion>
+    <ClientPassword>mf3hsN7lV6cGWVuldV06fA==</ClientPassword>
+   <ServiceName>Auto-GetPolicyInfo</ServiceName>
+   <ServiceVersion>2.b</ServiceVersion>
+   <Payload>
+      <Auto-GetPolicyInfo>
+         <KeyNumber>0007185402</KeyNumber>
+         <LineOfBusiness>HP</LineOfBusiness>
+         <EffectiveDate/>
+         <ExpirationDate/>
+         <QuoteSeqNumber>0</QuoteSeqNumber>
+         <BillingRequired>N</BillingRequired>
+         <PolicyRequired>Y</PolicyRequired>
+         <ClaimsRequired>N</ClaimsRequired>
+         <LegacyRequired>N</LegacyRequired>
+      </Auto-GetPolicyInfo>
+   </Payload>
+</IfbiEsbRequest>
+
+<IfbiEsbResponse xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:esd="http://www.w3.org/2001/XMLSchema" xmlns:esi="http://www.w3.org/2001/XMLSchema-instance">
+   <Response>
+      <Code>S_0000</Code>
+      <Description>Success</Description>
+   </Response>
+   <Payload>
+      <Home-GetPolicyInfoResponse>
+         <Acknowledgement>
+            <Code>SU-1000</Code>
+            <Description>Successful</Description>
+         </Acknowledgement>
+         <WEB-SERV-DATA>
+            <POL-DOCUMENT-TYPE/>
+            <POLICY-INFO>
+               <POL-CLIENT-NAME/>
+               <POL-CLT-REL-TYPE/>
+               <POL-RECP-LOAN-NBR/>
+               <POL-NIN-NAME>GREG  DAVIDSON</POL-NIN-NAME>
+               <POL-ANI-NAME>RHONDA  DAVIDSON</POL-ANI-NAME>
+               <POL-FORMAT-NAME/>
+               <POL-NIN-PHONE-NBR>(317)965-9437</POL-NIN-PHONE-NBR>
+               <POL-NIN-DOB>1962-07-05</POL-NIN-DOB>
+               <POL-NIN-EMAIL>atboehner@gmail.com</POL-NIN-EMAIL>
+               <POL-NIN-ADDRESS-BLOCK>
+                  <POL-NIN-ADDRESS1>875 E COUNTY LINE RD</POL-NIN-ADDRESS1>
+                  <POL-NIN-ADDRESS2/>
+                  <POL-NIN-CITY-STATE-ZIP>MOORESVILLE, IN  46158-1819</POL-NIN-CITY-STATE-ZIP>
+               </POL-NIN-ADDRESS-BLOCK>
+               <POL-NBR>0007185402</POL-NBR>
+               <POL-TERM-CD>12</POL-TERM-CD>
+               <POL-TRANS-DATE>06/01/2015</POL-TRANS-DATE>
+               <POL-OGN-INCPT-DATE>06/01/2012</POL-OGN-INCPT-DATE>
+               <POL-OGN-EFF-DATE>06/01/2015</POL-OGN-EFF-DATE>
+               <POL-EFF-DATE>06/01/2015</POL-EFF-DATE>
+               <POL-EXP-DATE>06/01/2016</POL-EXP-DATE>
+               <POL-CANC-DATE/>
+               <POL-LOB-CODE>HP</POL-LOB-CODE>
+               <POL-NIN-SIGNATURE/>
+               <POL-NIN-SIGN-TS/>
+               <POL-AGT-ACID>A95F1</POL-AGT-ACID>
+               <POL-AGT-CLT-ID>ZA7L5XWSJY20CLTCTEMP</POL-AGT-CLT-ID>
+               <POL-AGT-NAME>KENT SHAFFER</POL-AGT-NAME>
+               <POL-AGT-ADDRESS-BLOCK>
+                  <POL-AGT-ADDRESS>(HOME OFFICE)</POL-AGT-ADDRESS>
+                  <POL-AGT-CITY-STATE-ZIP>INDIANAPOLIS, IN 46206-1250</POL-AGT-CITY-STATE-ZIP>
+               </POL-AGT-ADDRESS-BLOCK>
+               <POL-AGT-EMAIL>kent.shafferinfarmbureaucom @example.com</POL-AGT-EMAIL>
+               <POL-AGT-PHONE>3176927658</POL-AGT-PHONE>
+               <POL-COUNTY-OFFICE>492</POL-COUNTY-OFFICE>
+               <POL-RETURN-LETTER-DT>06/15/2015</POL-RETURN-LETTER-DT>
+               <POL-TOTAL-ANNUAL-PREM>1271.80</POL-TOTAL-ANNUAL-PREM>
+               <POL-HPLD-TOT-PRM>1271.80</POL-HPLD-TOT-PRM>
+               <POL-HPLD-SAV-AMT>64.00</POL-HPLD-SAV-AMT>
+               <POL-REDUCE-PREM>1207.80</POL-REDUCE-PREM>
+               <POL-TRANS-TYPE-CODE>R</POL-TRANS-TYPE-CODE>
+               <DRVR-TRANS-TYPE/>
+               <POL-TRANS-TYPE>RENEWAL</POL-TRANS-TYPE>
+               <POL-STATUS-CODE>A</POL-STATUS-CODE>
+               <POL-BIL-MODE>MONTHLY</POL-BIL-MODE>
+               <POL-BIL-ACCT-NBR>3175322494</POL-BIL-ACCT-NBR>
+               <POL-INS-SCORE/>
+               <POL-COMPANY-NBR>0000002</POL-COMPANY-NBR>
+               <POL-COMPANY-NAME>UNITED FARM FAMILY MUTUAL INSURANCE COMPANY</POL-COMPANY-NAME>
+               <POL-MINE-SUB-SWITCH/>
+               <POL-NOHOME-HO0496-SWITCH>Y</POL-NOHOME-HO0496-SWITCH>
+               <POL-NOHOME-DL2416-SWITCH/>
+               <POL-HOMH-END-3PAGES-SWITCH/>
+               <POL-DPDL-END-SWITCH/>
+               <POL-IMP-NOTE-RPLC-COST-SWITCH/>
+               <POL-APV-PHAZ-END/>
+               <POL-ADD-INTEREST-IND>Y</POL-ADD-INTEREST-IND>
+               <POL-QUOTE-NBR>00</POL-QUOTE-NBR>
+               <POL-QUOTE-CREATE-DATE>04/27/2012</POL-QUOTE-CREATE-DATE>
+               <POL-RATED-DATE>11/01/2014</POL-RATED-DATE>
+               <POL-RATED-IND>Y</POL-RATED-IND>
+               <POL-INS-PREV-CARRIER>Farmers Insurance</POL-INS-PREV-CARRIER>
+               <POL-INS-PRIOR-POL-NBR/>
+               <POL-TOTAL-NUM-DWELL>001</POL-TOTAL-NUM-DWELL>
+               <APV-MINIMUM-PRM-SW/>
+               <POL-GRRR-EXCL-SW/>
+               <POL-RFEX-EXCL-SW/>
+               <POL-INTEREST-COUNT>3</POL-INTEREST-COUNT>
+               <APV-INTEREST-COUNT>0</APV-INTEREST-COUNT>
+               <APV-EXT-COUNT>0</APV-EXT-COUNT>
+               <APV-DIS-COUNT>0</APV-DIS-COUNT>
+               <APV-COUNT>0</APV-COUNT>
+               <VEH-DRV-COUNT>0</VEH-DRV-COUNT>
+               <LOC-COUNT>0</LOC-COUNT>
+               <LOC-COVB-OTH-COUNT>0</LOC-COVB-OTH-COUNT>
+               <EXT-TO-COUNT>0</EXT-TO-COUNT>
+               <EXT-FROM-COUNT>0</EXT-FROM-COUNT>
+               <LOC-DWL-EXT-COUNT>0</LOC-DWL-EXT-COUNT>
+               <LOC-WATER-COUNT-WCR>0</LOC-WATER-COUNT-WCR>
+               <LOC-WCR-D-COUNT>0</LOC-WCR-D-COUNT>
+               <LOC-WATER-COUNT-WPD>0</LOC-WATER-COUNT-WPD>
+               <LOC-WPD-D-COUNT>0</LOC-WPD-D-COUNT>
+               <LOC-SPP-EXT-COUNT>0</LOC-SPP-EXT-COUNT>
+               <LOC-DISC-COUNT>4</LOC-DISC-COUNT>
+               <LOC-PDV-COUNT>0</LOC-PDV-COUNT>
+               <LOC-DAI-Q-COUNT>0</LOC-DAI-Q-COUNT>
+               <POL-AQ-COUNT>4</POL-AQ-COUNT>
+               <LOC-DWL-EXP-COUNT>0</LOC-DWL-EXP-COUNT>
+               <VEH-AIQ-COUNT>0</VEH-AIQ-COUNT>
+               <POL-APP-QUEST>
+                  <POL-APP-QUEST-IND>Y</POL-APP-QUEST-IND>
+                  <POL-APP-QUEST-CODE>WBCOVCK</POL-APP-QUEST-CODE>
+                  <POL-APP-ANSWERS/>
+               </POL-APP-QUEST>
+               <POL-APP-QUEST>
+                  <POL-APP-QUEST-IND>N</POL-APP-QUEST-IND>
+                  <POL-APP-QUEST-CODE>EQCOVCK</POL-APP-QUEST-CODE>
+                  <POL-APP-ANSWERS/>
+               </POL-APP-QUEST>
+               <POL-APP-QUEST>
+                  <POL-APP-QUEST-IND>Y</POL-APP-QUEST-IND>
+                  <POL-APP-QUEST-CODE>REPLCOVCK</POL-APP-QUEST-CODE>
+                  <POL-APP-ANSWERS/>
+               </POL-APP-QUEST>
+               <POL-APP-QUEST>
+                  <POL-APP-QUEST-IND>N</POL-APP-QUEST-IND>
+                  <POL-APP-QUEST-CODE>SPPCOVCK</POL-APP-QUEST-CODE>
+                  <POL-APP-ANSWERS/>
+               </POL-APP-QUEST>
+            </POLICY-INFO>
+            <POL-LOCATION-INFO-AREA>
+               <POL-LOCATION-INFO>
+                  <LOC-PHYS-DAMAGE-DWL-NBR>1</LOC-PHYS-DAMAGE-DWL-NBR>
+                  <LOC-NUM-OF-DWELL>001</LOC-NUM-OF-DWELL>
+                  <LOC-TOTAL-ANN-PREM>1271.80</LOC-TOTAL-ANN-PREM>
+                  <LOC-COUNTY-NAME>Morgan</LOC-COUNTY-NAME>
+                  <LOC-FIRE-PROTECTION>PROTECTED</LOC-FIRE-PROTECTION>
+                  <LOC-NIN-DRV-LIC-ST>Indiana</LOC-NIN-DRV-LIC-ST>
+                  <LOC-POL-TYPE>2</LOC-POL-TYPE>
+                  <LOC-ISO-FORM-TXT>HO 0002 HOMEOWNERS EXTRA POLICY</LOC-ISO-FORM-TXT>
+                  <LOC-OCC-CHANGE-IND/>
+                  <LOC-OCC-TEXT>Primary</LOC-OCC-TEXT>
+                  <LOC-NBR-OF-FAMILIES>001</LOC-NBR-OF-FAMILIES>
+                  <LOC-REPL-VAL-AMT>000195039</LOC-REPL-VAL-AMT>
+                  <LOC-DWELL-TYPE>Dwelling</LOC-DWELL-TYPE>
+                  <LOC-CONST-YEAR>1920</LOC-CONST-YEAR>
+                  <LOC-FOUNDATION-TYPE>Basement</LOC-FOUNDATION-TYPE>
+                  <LOC-ROOF-TYPE>Asphalt Shingle</LOC-ROOF-TYPE>
+                  <LOC-ROOF-AGE>0</LOC-ROOF-AGE>
+                  <LOC-HEAT-TYPE>Central/Gas</LOC-HEAT-TYPE>
+                  <LOC-GENERAL-COND>Average</LOC-GENERAL-COND>
+                  <LOC-CHANGE-IND/>
+                  <LOC-ADDRESS-BLOCK>
+                     <LOC-STREET-ADD1>875 E COUNTY LINE RD</LOC-STREET-ADD1>
+                     <LOC-STREET-ADD2/>
+                     <LOC-CITY-STATE-ZIP>MOORESVILLE, IN  46158-1819</LOC-CITY-STATE-ZIP>
+                  </LOC-ADDRESS-BLOCK>
+                  <LOC-COUNTY-TWNSHIP>MORGAN/BROWN</LOC-COUNTY-TWNSHIP>
+                  <LOC-DEDU-CHANGE-IND/>
+                  <LOC-DEDUCTIBLE>01000</LOC-DEDUCTIBLE>
+                  <LOC-DEDU-DESCRIPTION>LOSS DEDUCTIBLE APPLIES</LOC-DEDU-DESCRIPTION>
+                  <LOC-DEDU-SIGN>-</LOC-DEDU-SIGN>
+                  <LOC-DEDU-PREMIUM>200.00</LOC-DEDU-PREMIUM>
+                  <LOC-WH-DEDU-CHANGE-IND/>
+                  <LOC-WH-DEDUCTIBLE>0</LOC-WH-DEDUCTIBLE>
+                  <LOC-WH-DEDU-PERCENT>0</LOC-WH-DEDU-PERCENT>
+                  <LOC-WH-DEDU-DESCRIPTION/>
+                  <LOC-WH-DEDU-SIGN/>
+                  <LOC-WH-DEDU-PREMIUM>0.00</LOC-WH-DEDU-PREMIUM>
+                  <LOC-THEFT-COVG-CODE/>
+                  <LOC-THEFT-DESCRIPTION/>
+                  <LOC-THEFT-CHANGE-IND/>
+                  <LOC-THEFT-PREM-SIGN/>
+                  <LOC-THEFT-PREM-PREMIUM>0.00</LOC-THEFT-PREM-PREMIUM>
+                  <LOC-COVA-CHANGE-IND/>
+                  <LOC-COVA-CONST-TYPE>Frame</LOC-COVA-CONST-TYPE>
+                  <LOC-COVA-DESCRIPTION>BUILT 1920</LOC-COVA-DESCRIPTION>
+                  <LOC-COVA-AMOUNT>000201922</LOC-COVA-AMOUNT>
+                  <LOC-COVA-PREMIUM>1061.20</LOC-COVA-PREMIUM>
+                  <LOC-COVB-CHANGE-IND/>
+                  <LOC-COVB-AMOUNT>000020192</LOC-COVB-AMOUNT>
+                  <LOC-COVB-PREMIUM>0.00</LOC-COVB-PREMIUM>
+                  <LOC-OTH-ISO-TXT>HO 0448  04-91  Other Structures - Increased Limits</LOC-OTH-ISO-TXT>
+                  <LOC-COVB-OTH-STRUCT>
+                     <LOC-OTH-CHANGE-IND/>
+                     <LOC-OTH-DES-TXT>pole barn, detached garage &amp; Block garage</LOC-OTH-DES-TXT>
+                     <LOC-OTH-DES-AMT>130000</LOC-OTH-DES-AMT>
+                     <LOC-OTH-DES-PREM>295.40</LOC-OTH-DES-PREM>
+                  </LOC-COVB-OTH-STRUCT>
+                  <LOC-COVC-CHANGE-IND/>
+                  <LOC-COVC-AMOUNT>000101000</LOC-COVC-AMOUNT>
+                  <LOC-COVC-PREM-SIGN/>
+                  <LOC-COVC-PREMIUM>0.00</LOC-COVC-PREMIUM>
+                  <LOC-COVD-CHANGE-IND/>
+                  <LOC-COVD-AMOUNT>000040400</LOC-COVD-AMOUNT>
+                  <LOC-INFLATION-SWITCH>Y</LOC-INFLATION-SWITCH>
+                  <LOC-PHYSI-DAMAGE-SUB-NEG-SIGN/>
+                  <LOC-PHYSICAL-DAMAGE-SUBTOT>1156.60</LOC-PHYSICAL-DAMAGE-SUBTOT>
+                  <LOC-LIAB-END-FORM-ID/>
+                  <LOC-LIAB-END-EDIT-DATE/>
+                  <LOC-LIAB-END-TEXT/>
+                  <LOC-SECT2-LIAB-CHANGE/>
+                  <LOC-SECT2-LIAB-AMOUNT>001000000</LOC-SECT2-LIAB-AMOUNT>
+                  <LOC-SECT2-LIAB-NEG-SIGN/>
+                  <LOC-SECT2-LIAB-PREMIUM>56.30</LOC-SECT2-LIAB-PREMIUM>
+                  <LOC-SECT2-MEDICAL-CHANGE/>
+                  <LOC-SECT2-MEDICAL-PER-AMT>000005000</LOC-SECT2-MEDICAL-PER-AMT>
+                  <LOC-SECT2-MEDICAL-OCC-AMT>10000</LOC-SECT2-MEDICAL-OCC-AMT>
+                  <LOC-SECT2-SUBTOT-NEG-SIGN/>
+                  <LOC-SECT2-SUBTOT>56.30</LOC-SECT2-SUBTOT>
+                  <LOC-DWL-EXT-COVERAGES>
+                     <LOC-EXT-COV-CODE>ACVR</LOC-EXT-COV-CODE>
+                     <LOC-EXT-ISO-NBR>HO 0493</LOC-EXT-ISO-NBR>
+                     <LOC-EXT-ISO-EDIT-DATE>05-94</LOC-EXT-ISO-EDIT-DATE>
+                     <LOC-EXT-ISO-DESC>ACTUAL CASH VALUE - ROOF SURFACING</LOC-EXT-ISO-DESC>
+                     <LOC-EXT-COV-DESC2>Actual Cash Value Roof Surfacing</LOC-EXT-COV-DESC2>
+                     <LOC-EXT-COV-DESC3/>
+                     <XPROP-CIND/>
+                     <XPREM-CIND/>
+                     <LOC-EXT-COV-AMT>0</LOC-EXT-COV-AMT>
+                     <LOC-EXT-COV-NEG-SIGN>-</LOC-EXT-COV-NEG-SIGN>
+                     <LOC-EXT-COV-PREMIUM>66.70</LOC-EXT-COV-PREMIUM>
+                  </LOC-DWL-EXT-COVERAGES>
+                  <LOC-DWL-EXT-COVERAGES>
+                     <LOC-EXT-COV-CODE>HMIS</LOC-EXT-COV-CODE>
+                     <LOC-EXT-ISO-NBR>HO 0493</LOC-EXT-ISO-NBR>
+                     <LOC-EXT-ISO-EDIT-DATE>05-94</LOC-EXT-ISO-EDIT-DATE>
+                     <LOC-EXT-ISO-DESC>MISCELLANEOUS ENDORSEMENT</LOC-EXT-ISO-DESC>
+                     <LOC-EXT-COV-DESC2>Miscellaneous Endorsement</LOC-EXT-COV-DESC2>
+                     <LOC-EXT-COV-DESC3/>
+                     <XPROP-CIND/>
+                     <XPREM-CIND/>
+                     <LOC-EXT-COV-AMT>0</LOC-EXT-COV-AMT>
+                     <LOC-EXT-COV-NEG-SIGN/>
+                     <LOC-EXT-COV-PREMIUM>0.00</LOC-EXT-COV-PREMIUM>
+                  </LOC-DWL-EXT-COVERAGES>
+                  <LOC-DWL-EXT-COVERAGES>
+                     <LOC-EXT-COV-CODE>HWBU</LOC-EXT-COV-CODE>
+                     <LOC-EXT-ISO-NBR>HO 0495</LOC-EXT-ISO-NBR>
+                     <LOC-EXT-ISO-EDIT-DATE>09-10</LOC-EXT-ISO-EDIT-DATE>
+                     <LOC-EXT-ISO-DESC>Water Back Up and Sump Overflow</LOC-EXT-ISO-DESC>
+                     <LOC-EXT-COV-DESC2>Water Back Up And Sump Overflow ($5,000)</LOC-EXT-COV-DESC2>
+                     <LOC-EXT-COV-DESC3/>
+                     <XPROP-CIND/>
+                     <XPREM-CIND/>
+                     <LOC-EXT-COV-AMT>0</LOC-EXT-COV-AMT>
+                     <LOC-EXT-COV-NEG-SIGN/>
+                     <LOC-EXT-COV-PREMIUM>82.50</LOC-EXT-COV-PREMIUM>
+                  </LOC-DWL-EXT-COVERAGES>
+                  <LOC-DWL-EXT-COVERAGES>
+                     <LOC-EXT-COV-CODE>REPC</LOC-EXT-COV-CODE>
+                     <LOC-EXT-ISO-NBR>HO 0490</LOC-EXT-ISO-NBR>
+                     <LOC-EXT-ISO-EDIT-DATE>04-91</LOC-EXT-ISO-EDIT-DATE>
+                     <LOC-EXT-ISO-DESC>Personal Property Replacement Cost</LOC-EXT-ISO-DESC>
+                     <LOC-EXT-COV-DESC2>Replacement Cost on Personal Property</LOC-EXT-COV-DESC2>
+                     <LOC-EXT-COV-DESC3/>
+                     <XPROP-CIND/>
+                     <XPREM-CIND/>
+                     <LOC-EXT-COV-AMT>0</LOC-EXT-COV-AMT>
+                     <LOC-EXT-COV-NEG-SIGN/>
+                     <LOC-EXT-COV-PREMIUM>43.10</LOC-EXT-COV-PREMIUM>
+                  </LOC-DWL-EXT-COVERAGES>
+                  <LOC-DWL-EXT-COVERAGES>
+                     <LOC-EXT-COV-CODE/>
+                     <LOC-EXT-ISO-NBR>HO 0496</LOC-EXT-ISO-NBR>
+                     <LOC-EXT-ISO-EDIT-DATE>04-91</LOC-EXT-ISO-EDIT-DATE>
+                     <LOC-EXT-ISO-DESC>No Home Day Care Coverage</LOC-EXT-ISO-DESC>
+                     <LOC-EXT-COV-DESC2/>
+                     <LOC-EXT-COV-DESC3/>
+                     <XPROP-CIND/>
+                     <XPREM-CIND/>
+                     <LOC-EXT-COV-AMT>0</LOC-EXT-COV-AMT>
+                     <LOC-EXT-COV-NEG-SIGN/>
+                     <LOC-EXT-COV-PREMIUM>0.00</LOC-EXT-COV-PREMIUM>
+                  </LOC-DWL-EXT-COVERAGES>
+                  <LOC-EXT-COV-SUBTOT>58.90</LOC-EXT-COV-SUBTOT>
+                  <LOC-EXT-COV-SUBTOT-SIGN/>
+                  <LOC-PROT-DEVICES>
+                     <LOC-PROTDV-DESC>Smoke/ Fire Alarm On Prems/Deadbolt</LOC-PROTDV-DESC>
+                  </LOC-PROT-DEVICES>
+                  <LOC-DWL-ADD-INFO-QUEST>
+                     <LOC-DAI-QUEST-IND>N</LOC-DAI-QUEST-IND>
+                     <LOC-DAI-QUEST-CODE>DWLEXPS</LOC-DAI-QUEST-CODE>
+                     <LOC-DAI-QUEST-ANSWERS/>
+                  </LOC-DWL-ADD-INFO-QUEST>
+               </POL-LOCATION-INFO>
+            </POL-LOCATION-INFO-AREA>
+            <LOC-DISCOUNTS-AREA>
+               <LOC-DISCOUNTS>
+                  <LOC-DISCOUNT-COVG-CODE>HCED</LOC-DISCOUNT-COVG-CODE>
+                  <LOC-DISCOUNT-DESC>Claims Experience Discount</LOC-DISCOUNT-DESC>
+                  <LOC-DISC-DWL-NBR>0000</LOC-DISC-DWL-NBR>
+                  <DIS-CIND/>
+                  <LOC-DISC-PERCENT>10</LOC-DISC-PERCENT>
+                  <LOC-DIS-NEG-SIGN/>
+                  <LOC-DIS-AMOUNT>0.00</LOC-DIS-AMOUNT>
+               </LOC-DISCOUNTS>
+               <LOC-DISCOUNTS>
+                  <LOC-DISCOUNT-COVG-CODE>HLYD</LOC-DISCOUNT-COVG-CODE>
+                  <LOC-DISCOUNT-DESC>Loyalty Discount</LOC-DISCOUNT-DESC>
+                  <LOC-DISC-DWL-NBR>0000</LOC-DISC-DWL-NBR>
+                  <DIS-CIND/>
+                  <LOC-DISC-PERCENT>03</LOC-DISC-PERCENT>
+                  <LOC-DIS-NEG-SIGN/>
+                  <LOC-DIS-AMOUNT>0.00</LOC-DIS-AMOUNT>
+               </LOC-DISCOUNTS>
+               <LOC-DISCOUNTS>
+                  <LOC-DISCOUNT-COVG-CODE>HMPD</LOC-DISCOUNT-COVG-CODE>
+                  <LOC-DISCOUNT-DESC>Multi-Line Discount</LOC-DISCOUNT-DESC>
+                  <LOC-DISC-DWL-NBR>0000</LOC-DISC-DWL-NBR>
+                  <DIS-CIND/>
+                  <LOC-DISC-PERCENT>20</LOC-DISC-PERCENT>
+                  <LOC-DIS-NEG-SIGN/>
+                  <LOC-DIS-AMOUNT>0.00</LOC-DIS-AMOUNT>
+               </LOC-DISCOUNTS>
+               <LOC-DISCOUNTS>
+                  <LOC-DISCOUNT-COVG-CODE>PRTD</LOC-DISCOUNT-COVG-CODE>
+                  <LOC-DISCOUNT-DESC>Protective device(s)</LOC-DISCOUNT-DESC>
+                  <LOC-DISC-DWL-NBR>0000</LOC-DISC-DWL-NBR>
+                  <DIS-CIND/>
+                  <LOC-DISC-PERCENT>20</LOC-DISC-PERCENT>
+                  <LOC-DIS-NEG-SIGN/>
+                  <LOC-DIS-AMOUNT>0.00</LOC-DIS-AMOUNT>
+               </LOC-DISCOUNTS>
+               <LOC-DIS-SUBTOT-AMT>0.00</LOC-DIS-SUBTOT-AMT>
+               <LOC-DIS-SUBTOT-SIGN/>
+            </LOC-DISCOUNTS-AREA>
+            <POL-POLICY-INTEREST-AREA>
+               <POL-POLICY-INTEREST>
+                  <PI-DWELL-NBR>00001</PI-DWELL-NBR>
+                  <PI-REL-TYPE>ADDITIONAL NAMED INSURED</PI-REL-TYPE>
+                  <PI-NAME>RHONDA  DAVIDSON</PI-NAME>
+                  <PI-CIND/>
+                  <PI-ADDRESS-BLOCK>
+                     <PI-STREET-ADD1>875 E COUNTY LINE RD</PI-STREET-ADD1>
+                     <PI-STREET-ADD2/>
+                     <PI-CITY-STATE-ZIP>MOORESVILLE, IN  46158-1819</PI-CITY-STATE-ZIP>
+                  </PI-ADDRESS-BLOCK>
+                  <PI-CLIENT-ID>WEP13A65LT637C492938</PI-CLIENT-ID>
+                  <PI-APPLIES-LOCATION/>
+                  <PI-APPLIES-COV/>
+                  <PI-APPLIES-CLAUSE/>
+                  <PI-LOAN-NUMBER/>
+               </POL-POLICY-INTEREST>
+               <POL-POLICY-INTEREST>
+                  <PI-DWELL-NBR>00001</PI-DWELL-NBR>
+                  <PI-REL-TYPE>NAMED INSURED</PI-REL-TYPE>
+                  <PI-NAME>GREG  DAVIDSON</PI-NAME>
+                  <PI-CIND/>
+                  <PI-ADDRESS-BLOCK>
+                     <PI-STREET-ADD1>875 E COUNTY LINE RD</PI-STREET-ADD1>
+                     <PI-STREET-ADD2/>
+                     <PI-CITY-STATE-ZIP>MOORESVILLE, IN  46158-1819</PI-CITY-STATE-ZIP>
+                  </PI-ADDRESS-BLOCK>
+                  <PI-CLIENT-ID>DI4ES8RPDT645MUT1925</PI-CLIENT-ID>
+                  <PI-APPLIES-LOCATION/>
+                  <PI-APPLIES-COV/>
+                  <PI-APPLIES-CLAUSE/>
+                  <PI-LOAN-NUMBER/>
+               </POL-POLICY-INTEREST>
+               <POL-POLICY-INTEREST>
+                  <PI-DWELL-NBR>00001</PI-DWELL-NBR>
+                  <PI-REL-TYPE>FIRST MORTGAGEE</PI-REL-TYPE>
+                  <PI-NAME>CITIMORTGAGE</PI-NAME>
+                  <PI-CIND/>
+                  <PI-ADDRESS-BLOCK>
+                     <PI-STREET-ADD1>PO BOX 7706</PI-STREET-ADD1>
+                     <PI-STREET-ADD2/>
+                     <PI-CITY-STATE-ZIP>SPRINGFIELD, OH  45501-7706</PI-CITY-STATE-ZIP>
+                  </PI-ADDRESS-BLOCK>
+                  <PI-CLIENT-ID/>
+                  <PI-APPLIES-LOCATION>875 E COUNTY LINE RD</PI-APPLIES-LOCATION>
+                  <PI-APPLIES-COV>$201,922 DWELLING</PI-APPLIES-COV>
+                  <PI-APPLIES-CLAUSE>BENEFIT AND MORTGAGEE CLAUSES APPLY</PI-APPLIES-CLAUSE>
+                  <PI-LOAN-NUMBER>0006391529011D</PI-LOAN-NUMBER>
+               </POL-POLICY-INTEREST>
+            </POL-POLICY-INTEREST-AREA>
+         </WEB-SERV-DATA>
+      </Home-GetPolicyInfoResponse>
+   </Payload>
+</IfbiEsbResponse>

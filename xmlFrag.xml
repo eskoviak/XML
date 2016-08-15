@@ -1,0 +1,16 @@
+            <id/>
+            <policyNumber><xsl:value-of select="polNumber"/></policyNumber>
+            <descrption></descrption>
+            <locations/>
+            <policyDetails></policyDetails>
+            <issueAge></issueAge>
+            <originalIncecptionDate></originalIncecptionDate>
+            <termEffectiveDate></termEffectiveDate>
+            <termExpirationDate></termExpirationDate>
+            <cancelDate></cancelDate>
+            <maturityDate></maturityDate>
+            <policyTerm></policyTerm>
+            <billingPlan></billingPlan>
+            <premium></premium>
+            <billingDetails></billingDetails>
+            <policyAssociations></policyAssociations>
