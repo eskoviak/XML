@@ -29,6 +29,7 @@
         </data>
     </xsl:template>
 
+    <!-- Main Loop Start at TXLife/TXLifeResponse/OLifE/Holding -->
     <xsl:template match="Policy">
         <id>
             <xsl:value-of select="PolNumber" />        
@@ -54,24 +55,24 @@
         <cancelDate/>
         <maturityDate/>
         <policyTerm></policyTerm>
-        <billingPlan/>
-        <premium/>
+<!--        <billingPlan/>
+-->        <premium/>
         <billingDetails>
             <xsl:call-template name="billing"></xsl:call-template>
         </billingDetails>
         <policyAssociations>
-            <!-- TODO -->
+            <xsl:call-template name="policyAssociation"/>
         </policyAssociations>
     </xsl:template>
 
     <xsl:template name="billing">
-        <paymentMethod>
+<!--        <paymentMethod>
             <xsl:value-of select="PaymentMethod"/>
         </paymentMethod>
-        <paymentMode>
+-->        <paymentMode>
             <xsl:value-of select="PaymentMode"/>
         </paymentMode>
-        <paymentAmount>
+ <!--       <paymentAmount>
             <xsl:value-of select="PaymentAmt"/>
         </paymentAmount>
         <paidToDate>
@@ -86,7 +87,7 @@
         <lastPremiumAutomaticPolicyLoan>
             <xsl:value-of select="ifb:castYesNoToBoolean(Life/NonFortProv)"/>
         </lastPremiumAutomaticPolicyLoan>
-    </xsl:template>
+-->    </xsl:template>
     
     <xsl:template name="policyDetail">
         <detailPart>Life</detailPart>
@@ -97,6 +98,30 @@
         <dividends>
             <xsl:call-template name="dividends"/>
         </dividends>
+        <faceAmount>
+            <xsl:value-of select="Life/FaceAmt"/>
+        </faceAmount>
+        <netBaseDeathBenefit>
+            <xsl:value-of select="Life/FaceAmt"/>
+        </netBaseDeathBenefit>
+        <targetPremiumAmount>
+            <xsl:value-of select="Life/OLifEExtension/TargetPremAmts/TargetPremAmt"/>
+        </targetPremiumAmount>
+        <targetPremiumAmountBase>
+            <xsl:value-of select="Life/OLifEExtension/TargetPremAmts/TargetPremPhase"/>
+        </targetPremiumAmountBase>
+        <totalPremiumsPaidAmount>
+            <xsl:value-of select="Life/TotCumPremAmt"/>
+        </totalPremiumsPaidAmount>
+        <discountedAdvancePremium>
+            <xsl:value-of select="Life/NonDivOnDepositAmt"/>
+        </discountedAdvancePremium>
+        <projectedValues>
+            <xsl:call-template name="projectedValues"></xsl:call-template>
+        </projectedValues>
+        <nonForfeitureProvision>
+            <xsl:call-template name="nonForfeiture-Life"/>
+        </nonForfeitureProvision>
     </xsl:template>
     
     <xsl:template name="coverage">
@@ -180,4 +205,56 @@
         </dividendsOnDepositInterestRate>
     </xsl:template>
   
+    <xsl:template name="projectedValues">
+        <projectedValuesDate/>
+        <anniversaryPolicyValue/>
+        <age65PolicyValue/>
+        <dividendValue/>
+        <policyValue/>
+    </xsl:template>
+    
+    <xsl:template name="nonForfeiture-Life">
+        <reducedPaidUpAmount>
+            <xsl:value-of select="Life/OLifEExtension/RPUQuote"/>
+        </reducedPaidUpAmount>
+        <extendedTermInsuranceAmount>
+            <xsl:value-of select="Life/OLifEExtension/ETIQuote"/>
+        </extendedTermInsuranceAmount>
+        <extendedTermInsuranceExpirationDate>
+            <xsl:value-of select="Life/OLifEExtension/ETIDate"/>
+        </extendedTermInsuranceExpirationDate>
+    </xsl:template>
+    
+    <xsl:template name="policyAssociation">
+        <xsl:call-template name="beneficiaries"></xsl:call-template>
+        <name></name>
+        <address>
+            <xsl:call-template name="address"></xsl:call-template>
+        </address>
+        <referenceData></referenceData>
+        <associationType></associationType>
+        <associationSubType></associationSubType>
+    </xsl:template>
+    
+    <xsl:template name="address">
+        <addressType></addressType>
+        <addressAggregate></addressAggregate>
+        <street1></street1>
+        <street2></street2>
+        <city></city>
+        <state></state>
+        <countyCode></countyCode>
+        <couty></couty>
+        <townshipCode></townshipCode>
+        <township></township>
+        <postalCode></postalCode>
+        <country></country>
+    </xsl:template>
+    
+    <xsl:template match="//OLifE" name="beneficiaries">
+        <!-- Primary -->
+        <primaryBene>
+            <xsl:value-of select='//OLifE/Party[@id=//OLifE/Relation[RelationRoleCode[@tc="34"]]/@RelatedObjectID]'/>
+        </primaryBene>
+    </xsl:template>
 </xsl:stylesheet>
