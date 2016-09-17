@@ -24,6 +24,15 @@
     
     <xsl:output method="xml" indent="yes"/>
     <xsl:template match="/">
+        <metadata>
+            <statusCode>
+                <xsl:value-of select="//ResultCode"/>          
+            </statusCode>
+            <statusDescription>
+                <xsl:value-of select="//ResultInfo/ResultInfoDesc"/>
+            </statusDescription>
+
+        </metadata>
         <data>
             <xsl:apply-templates select="//OLifE/Holding/Policy" />
         </data>
@@ -125,56 +134,58 @@
     </xsl:template>
     
     <xsl:template name="coverage">
-        <deductibles/>
-        <description>
-            <xsl:value-of select="Life/Coverage/PlanName"/>
-        </description>
-        <coverageDetail>
-            <xsl:call-template name="coverageDetail-Life"/>
-        </coverageDetail>
-        <limits/>
-        <premium>
-            <xsl:value-of select="Life/Coverage/AnnualPremAmt"/>
-        </premium>
-        <isEndorsement/>
-        <isExcluded/>
-        <isWaived/>
-        <inclusions/>
+        <xsl:for-each select="Life/Coverage">
+            <deductibles/>
+            <description>
+                <xsl:value-of select="PlanName"/>
+            </description>
+            <coverageDetail>
+                <xsl:call-template name="coverageDetail-Life"/>
+            </coverageDetail>
+            <limits/>
+            <premium>
+                <xsl:value-of select="AnnualPremAmt"/>
+            </premium>
+            <isEndorsement/>
+            <isExcluded/>
+            <isWaived/>
+            <inclusions/>            
+        </xsl:for-each>
     </xsl:template>
     
     <xsl:template name="coverageDetail-Life">
         <issueAge>
-            <xsl:value-of select="//OLifE/Holding/Policy/Life/Coverage/LifeParticipant[LifeParticipantRoleCode[@tc='1']]/IssueAge"/>
+            <xsl:value-of select="LifeParticipant[LifeParticipantRoleCode[@tc='1']]/IssueAge"/>
         </issueAge>
         <type>
             <xsl:value-of select="ifb:getInsuranceProductType(ProductType)"/>
         </type>
         <guidelineAnnualPremium>
-            <xsl:value-of select="Life/Coverage[@IndicatorCode='1']/GuidelineAnnualPremium"/>
+            <xsl:value-of select="Coverage[@IndicatorCode='1']/GuidelineAnnualPremium"/>
         </guidelineAnnualPremium>
         <deathBenefitOption>
-            <xsl:value-of select="Life/Coverage[@IndicatorCode='1']/DeathBenefitOptionType"/>
+            <xsl:value-of select="Coverage[@IndicatorCode='1']/DeathBenefitOptionType"/>
         </deathBenefitOption>
         <rateClassification>
-            <xsl:value-of select="Life/Coverage/LifeParticipant/UnderwritingClass"/>
+            <xsl:value-of select="Coverage/LifeParticipant/UnderwritingClass"/>
         </rateClassification>
         <tableRating>
-            <xsl:value-of select="Life/Coverage/LifeParticipant/PermTableRating"/>
+            <xsl:value-of select="LifeParticipant/PermTableRating"/>
         </tableRating>
         <faceAmount>
-            <xsl:value-of select="Life/Coverage/CurrentAmt"/>
+            <xsl:value-of select="CurrentAmt"/>
         </faceAmount>
         <annualPremium>
-            <xsl:value-of select="Life/Coverage/AnnualPremAmt"/>
+            <xsl:value-of select="AnnualPremAmt"/>
         </annualPremium>
         <effectiveDate>
-            <xsl:value-of select="Life/Coverage/CovOption/EffDate"/>
+            <xsl:value-of select="CovOption/EffDate"/>
         </effectiveDate>
         <expirationDate>
-            <xsl:value-of select="Life/Coverage/CovOption/TermDate"/>
+            <xsl:value-of select="CovOption/TermDate"/>
         </expirationDate>
         <interestCredited>
-            <xsl:value-of select="/Life/Coverage/InterestEarnedATD"/>
+            <xsl:value-of select="InterestEarnedATD"/>
         </interestCredited>
     </xsl:template>
     
@@ -192,7 +203,7 @@
             <xsl:value-of select="Life/DivOnDepIntAmt"/>
         </dividendsOnDeposit>
         <proRataDividend>
-            <xsl:value-of select="/Life/OLifEExtension.ProRataDiv"/>
+            <xsl:value-of select="/Life/OLifEExtensionProRataDiv"/>
         </proRataDividend>
         <terminalDividends>
             <xsl:value-of select="Life/TermDivAmt"/>
@@ -226,15 +237,42 @@
     </xsl:template>
     
     <xsl:template name="policyAssociation">
-        <xsl:call-template name="beneficiaries"></xsl:call-template>
-        <name></name>
-        <address>
-            <xsl:call-template name="address"></xsl:call-template>
-        </address>
-        <referenceData></referenceData>
-        <associationType></associationType>
-        <associationSubType></associationSubType>
-    </xsl:template>
+        <!-- Primary Beneficiary -->
+        <xsl:for-each select='//OLifE/Party[@id=//OLifE/Relation[RelationRoleCode[@tc="34"]]/@RelatedObjectID]'>
+            <name>
+                <xsl:value-of select="concat(
+                    Person/FirstName, ' ',
+                    Person/MiddleName, ' ',
+                    Person/LastName)"/>
+            </name>
+            <address>
+                <xsl:value-of select="Address"/>
+            </address>
+            <referenceData></referenceData>
+            <associationType>
+                PRIMARY BENEFICIARY
+            </associationType>
+            <associationSubType></associationSubType>
+        </xsl:for-each>
+        <!-- Secondary Beneficiary -->
+        <xsl:for-each select='//OLifE/Party[@id=//OLifE/Relation[RelationRoleCode[@tc="36"]]/@RelatedObjectID]'>
+            <name>
+                <xsl:value-of select="concat(
+                    Person/FirstName, ' ',
+                    Person/MiddleName, ' ',
+                    Person/LastName)"/>
+            </name>
+            <address>
+                <xsl:value-of select="Address"/>
+            </address>
+            <referenceData></referenceData>
+            <associationType>
+                SECONDARY BENFICIARY
+            </associationType>
+            <associationSubType></associationSubType>
+        </xsl:for-each>
+        
+     </xsl:template>
     
     <xsl:template name="address">
         <addressType></addressType>
